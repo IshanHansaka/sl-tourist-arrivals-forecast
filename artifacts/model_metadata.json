@@ -1,0 +1,22 @@
+{
+  "selected_by": "lowest validation MAE",
+  "selected_model_name": "Seasonal_Naive_12",
+  "target_unit": "tourists per country-month",
+  "random_state": 42,
+  "validation_start": "2024-11-01",
+  "validation_end": "2025-10-01",
+  "test_start": "2025-11-01",
+  "test_end": "2026-10-01",
+  "test_used_for_training_or_selection": false,
+  "python_version": "3.9.6 (default, Oct 19 2026, 19:18:13) \n[Clang 21.0.0 (clang-2100.4.1.1)]",
+  "platform": "macOS-27.2-arm64-arm-64bit",
+  "sklearn_version": "1.6.1",
+  "xgboost_version": "2.1.4",
+  "selected_model": "Seasonal_Naive_12",
+  "selection_metric": "validation MAE",
+  "test_used_once": true,
+  "test_rows": 2007,
+  "test_country_count": 195,
+  "future_horizon_months": 6,
+  "future_method": "direct seasonal naive: future month uses the same month 12 months earlier"
+}

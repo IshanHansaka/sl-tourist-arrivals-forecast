@@ -1,0 +1,26 @@
+{
+  "exact_duplicate_rows_removed": 46,
+  "conflicting_duplicate_groups": 26,
+  "conflicting_duplicate_rows": 52,
+  "missing_rows_filled_with_zero": 1397,
+  "complete_panel_rows": 21518,
+  "countries_not_merged": {
+    "Korea": [
+      "Korea",
+      "South Korea"
+    ],
+    "Congo": [
+      "Congo",
+      "Republic Of Congo",
+      "Democratic Republic Of Congo"
+    ],
+    "Macedonia": [
+      "Macedonia"
+    ],
+    "Swaziland": [
+      "Swaziland"
+    ]
+  },
+  "conflicting_duplicate_resolution": "For each conflicting Date-Country key, use the rounded median of duplicate Arrivals values. The raw conflicting rows remain in artifacts/conflicting_duplicates.csv.",
+  "missing_panel_resolution": "Missing country-month combinations are treated as zero arrivals because this source-style panel reports countries in observed rows and omits no-arrival countries. This is a modeling assumption that can be revised if SLTDA row inclusion rules are confirmed."
+}

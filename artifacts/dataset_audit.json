@@ -1,0 +1,92 @@
+{
+  "row_count": 20193,
+  "column_count": 3,
+  "columns": [
+    "Date",
+    "Country",
+    "Arrivals"
+  ],
+  "dtypes": {
+    "Date": "datetime64[ns]",
+    "Country": "object",
+    "Arrivals": "int64"
+  },
+  "missing_values": {
+    "Date": 0,
+    "Country": 0,
+    "Arrivals": 0
+  },
+  "date_range": [
+    "2018-01-01",
+    "2026-10-01"
+  ],
+  "month_starts": true,
+  "unique_countries": 203,
+  "unique_months": 106,
+  "countries_per_month": {
+    "min": 185,
+    "max": 195
+  },
+  "exact_duplicate_rows": 46,
+  "duplicate_key_rows": 144,
+  "duplicate_key_groups": 72,
+  "conflicting_duplicate_groups": 26,
+  "negative_arrival_rows": 0,
+  "zero_arrival_rows": 5492,
+  "zero_arrival_pct": 27.2,
+  "missing_rectangular_panel_cells": 1397,
+  "rectangular_panel_cells": 21518,
+  "missing_panel_pct": 6.49,
+  "country_name_variants": {
+    "Korea": [
+      "Korea",
+      "South Korea"
+    ],
+    "Congo": [
+      "Congo",
+      "Democratic Republic Of Congo",
+      "Republic Of Congo"
+    ],
+    "Macedonia": [
+      "Macedonia"
+    ],
+    "Swaziland": [
+      "Swaziland"
+    ]
+  },
+  "aggregate_label_candidates": [],
+  "source_checks": {
+    "2019_05_total": {
+      "csv": 37802,
+      "sltda": 37802,
+      "match": true
+    },
+    "2019_annual_total": {
+      "csv": 1913690,
+      "sltda": 1913702,
+      "match": false
+    },
+    "2026_01_total": {
+      "csv": 277325,
+      "sltda": 277327,
+      "match": false
+    },
+    "2026_02_total": {
+      "csv": 279327,
+      "sltda": 279328,
+      "match": false
+    },
+    "2026_10_total": {
+      "csv": 168625,
+      "sltda": 168625,
+      "match": true
+    }
+  },
+  "cleaning_decisions_pending_user_confirmation": [
+    "A missing country-month is not yet assumed to be zero; retain as missing until source logic is confirmed.",
+    "Exact duplicate rows will be reported and de-duplicated only after confirming identical values.",
+    "Conflicting duplicate country-month values require source reconciliation and must not be silently averaged or dropped.",
+    "Do not merge Korea/South Korea or Congo variants without documented source identity evidence.",
+    "Zero country-month observations are retained as genuine reportable zeros until source context indicates otherwise."
+  ]
+}

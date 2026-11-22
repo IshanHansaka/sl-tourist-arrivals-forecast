@@ -1,0 +1,1219 @@
+Date,Country,Forecast,Model,Unit
+2026-11-01,Afghanistan,3.0,Seasonal_Naive_12,tourists
+2026-12-01,Afghanistan,7.0,Seasonal_Naive_12,tourists
+2027-01-01,Afghanistan,0.0,Seasonal_Naive_12,tourists
+2027-02-01,Afghanistan,4.0,Seasonal_Naive_12,tourists
+2027-03-01,Afghanistan,1.0,Seasonal_Naive_12,tourists
+2027-04-01,Afghanistan,8.0,Seasonal_Naive_12,tourists
+2026-11-01,Albania,11.0,Seasonal_Naive_12,tourists
+2026-12-01,Albania,12.0,Seasonal_Naive_12,tourists
+2027-01-01,Albania,28.0,Seasonal_Naive_12,tourists
+2027-02-01,Albania,24.0,Seasonal_Naive_12,tourists
+2027-03-01,Albania,6.0,Seasonal_Naive_12,tourists
+2027-04-01,Albania,11.0,Seasonal_Naive_12,tourists
+2026-11-01,Algeria,48.0,Seasonal_Naive_12,tourists
+2026-12-01,Algeria,174.0,Seasonal_Naive_12,tourists
+2027-01-01,Algeria,32.0,Seasonal_Naive_12,tourists
+2027-02-01,Algeria,17.0,Seasonal_Naive_12,tourists
+2027-03-01,Algeria,13.0,Seasonal_Naive_12,tourists
+2027-04-01,Algeria,35.0,Seasonal_Naive_12,tourists
+2026-11-01,Andorra,6.0,Seasonal_Naive_12,tourists
+2026-12-01,Andorra,6.0,Seasonal_Naive_12,tourists
+2027-01-01,Andorra,2.0,Seasonal_Naive_12,tourists
+2027-02-01,Andorra,1.0,Seasonal_Naive_12,tourists
+2027-03-01,Andorra,1.0,Seasonal_Naive_12,tourists
+2027-04-01,Andorra,0.0,Seasonal_Naive_12,tourists
+2026-11-01,Angola,2.0,Seasonal_Naive_12,tourists
+2026-12-01,Angola,2.0,Seasonal_Naive_12,tourists
+2027-01-01,Angola,2.0,Seasonal_Naive_12,tourists
+2027-02-01,Angola,0.0,Seasonal_Naive_12,tourists
+2027-03-01,Angola,1.0,Seasonal_Naive_12,tourists
+2027-04-01,Angola,0.0,Seasonal_Naive_12,tourists
+2026-11-01,Antigua And Barbuda,2.0,Seasonal_Naive_12,tourists
+2026-12-01,Antigua And Barbuda,5.0,Seasonal_Naive_12,tourists
+2027-01-01,Antigua And Barbuda,4.0,Seasonal_Naive_12,tourists
+2027-02-01,Antigua And Barbuda,9.0,Seasonal_Naive_12,tourists
+2027-03-01,Antigua And Barbuda,2.0,Seasonal_Naive_12,tourists
+2027-04-01,Antigua And Barbuda,2.0,Seasonal_Naive_12,tourists
+2026-11-01,Argentina,110.0,Seasonal_Naive_12,tourists
+2026-12-01,Argentina,102.0,Seasonal_Naive_12,tourists
+2027-01-01,Argentina,188.0,Seasonal_Naive_12,tourists
+2027-02-01,Argentina,129.0,Seasonal_Naive_12,tourists
+2027-03-01,Argentina,95.0,Seasonal_Naive_12,tourists
+2027-04-01,Argentina,75.0,Seasonal_Naive_12,tourists
+2026-11-01,Armenia,320.0,Seasonal_Naive_12,tourists
+2026-12-01,Armenia,397.0,Seasonal_Naive_12,tourists
+2027-01-01,Armenia,305.0,Seasonal_Naive_12,tourists
+2027-02-01,Armenia,271.0,Seasonal_Naive_12,tourists
+2027-03-01,Armenia,36.0,Seasonal_Naive_12,tourists
+2027-04-01,Armenia,41.0,Seasonal_Naive_12,tourists
+2026-11-01,Aruba,0.0,Seasonal_Naive_12,tourists
+2026-12-01,Aruba,0.0,Seasonal_Naive_12,tourists
+2027-01-01,Aruba,0.0,Seasonal_Naive_12,tourists
+2027-02-01,Aruba,0.0,Seasonal_Naive_12,tourists
+2027-03-01,Aruba,0.0,Seasonal_Naive_12,tourists
+2027-04-01,Aruba,0.0,Seasonal_Naive_12,tourists
+2026-11-01,Australia,9384.0,Seasonal_Naive_12,tourists
+2026-12-01,Australia,14820.0,Seasonal_Naive_12,tourists
+2027-01-01,Australia,11172.0,Seasonal_Naive_12,tourists
+2027-02-01,Australia,10000.0,Seasonal_Naive_12,tourists
+2027-03-01,Australia,11197.0,Seasonal_Naive_12,tourists
+2027-04-01,Australia,9943.0,Seasonal_Naive_12,tourists
+2026-11-01,Austria,1766.0,Seasonal_Naive_12,tourists
+2026-12-01,Austria,2620.0,Seasonal_Naive_12,tourists
+2027-01-01,Austria,2811.0,Seasonal_Naive_12,tourists
+2027-02-01,Austria,3074.0,Seasonal_Naive_12,tourists
+2027-03-01,Austria,904.0,Seasonal_Naive_12,tourists
+2027-04-01,Austria,494.0,Seasonal_Naive_12,tourists
+2026-11-01,Azerbaijan,200.0,Seasonal_Naive_12,tourists
+2026-12-01,Azerbaijan,121.0,Seasonal_Naive_12,tourists
+2027-01-01,Azerbaijan,148.0,Seasonal_Naive_12,tourists
+2027-02-01,Azerbaijan,162.0,Seasonal_Naive_12,tourists
+2027-03-01,Azerbaijan,78.0,Seasonal_Naive_12,tourists
+2027-04-01,Azerbaijan,33.0,Seasonal_Naive_12,tourists
+2026-11-01,Bahamas,2.0,Seasonal_Naive_12,tourists
+2026-12-01,Bahamas,1.0,Seasonal_Naive_12,tourists
+2027-01-01,Bahamas,6.0,Seasonal_Naive_12,tourists
+2027-02-01,Bahamas,12.0,Seasonal_Naive_12,tourists
+2027-03-01,Bahamas,1.0,Seasonal_Naive_12,tourists
+2027-04-01,Bahamas,2.0,Seasonal_Naive_12,tourists
+2026-11-01,Bahrain,105.0,Seasonal_Naive_12,tourists
+2026-12-01,Bahrain,81.0,Seasonal_Naive_12,tourists
+2027-01-01,Bahrain,122.0,Seasonal_Naive_12,tourists
+2027-02-01,Bahrain,36.0,Seasonal_Naive_12,tourists
+2027-03-01,Bahrain,10.0,Seasonal_Naive_12,tourists
+2027-04-01,Bahrain,9.0,Seasonal_Naive_12,tourists
+2026-11-01,Bangladesh,4151.0,Seasonal_Naive_12,tourists
+2026-12-01,Bangladesh,4453.0,Seasonal_Naive_12,tourists
+2027-01-01,Bangladesh,4102.0,Seasonal_Naive_12,tourists
+2027-02-01,Bangladesh,2572.0,Seasonal_Naive_12,tourists
+2027-03-01,Bangladesh,4405.0,Seasonal_Naive_12,tourists
+2027-04-01,Bangladesh,3797.0,Seasonal_Naive_12,tourists
+2026-11-01,Barbados,2.0,Seasonal_Naive_12,tourists
+2026-12-01,Barbados,3.0,Seasonal_Naive_12,tourists
+2027-01-01,Barbados,5.0,Seasonal_Naive_12,tourists
+2027-02-01,Barbados,2.0,Seasonal_Naive_12,tourists
+2027-03-01,Barbados,1.0,Seasonal_Naive_12,tourists
+2027-04-01,Barbados,3.0,Seasonal_Naive_12,tourists
+2026-11-01,Belarus,1820.0,Seasonal_Naive_12,tourists
+2026-12-01,Belarus,2034.0,Seasonal_Naive_12,tourists
+2027-01-01,Belarus,2235.0,Seasonal_Naive_12,tourists
+2027-02-01,Belarus,1994.0,Seasonal_Naive_12,tourists
+2027-03-01,Belarus,1203.0,Seasonal_Naive_12,tourists
+2027-04-01,Belarus,357.0,Seasonal_Naive_12,tourists
+2026-11-01,Belgium,1572.0,Seasonal_Naive_12,tourists
+2026-12-01,Belgium,1553.0,Seasonal_Naive_12,tourists
+2027-01-01,Belgium,1915.0,Seasonal_Naive_12,tourists
+2027-02-01,Belgium,2235.0,Seasonal_Naive_12,tourists
+2027-03-01,Belgium,860.0,Seasonal_Naive_12,tourists
+2027-04-01,Belgium,1194.0,Seasonal_Naive_12,tourists
+2026-11-01,Belize,0.0,Seasonal_Naive_12,tourists
+2026-12-01,Belize,1.0,Seasonal_Naive_12,tourists
+2027-01-01,Belize,1.0,Seasonal_Naive_12,tourists
+2027-02-01,Belize,0.0,Seasonal_Naive_12,tourists
+2027-03-01,Belize,0.0,Seasonal_Naive_12,tourists
+2027-04-01,Belize,1.0,Seasonal_Naive_12,tourists
+2026-11-01,Benin,2.0,Seasonal_Naive_12,tourists
+2026-12-01,Benin,1.0,Seasonal_Naive_12,tourists
+2027-01-01,Benin,1.0,Seasonal_Naive_12,tourists
+2027-02-01,Benin,0.0,Seasonal_Naive_12,tourists
+2027-03-01,Benin,0.0,Seasonal_Naive_12,tourists
+2027-04-01,Benin,0.0,Seasonal_Naive_12,tourists
+2026-11-01,Bhutan,58.0,Seasonal_Naive_12,tourists
+2026-12-01,Bhutan,16.0,Seasonal_Naive_12,tourists
+2027-01-01,Bhutan,111.0,Seasonal_Naive_12,tourists
+2027-02-01,Bhutan,65.0,Seasonal_Naive_12,tourists
+2027-03-01,Bhutan,48.0,Seasonal_Naive_12,tourists
+2027-04-01,Bhutan,43.0,Seasonal_Naive_12,tourists
+2026-11-01,Bolivia,3.0,Seasonal_Naive_12,tourists
+2026-12-01,Bolivia,6.0,Seasonal_Naive_12,tourists
+2027-01-01,Bolivia,7.0,Seasonal_Naive_12,tourists
+2027-02-01,Bolivia,6.0,Seasonal_Naive_12,tourists
+2027-03-01,Bolivia,0.0,Seasonal_Naive_12,tourists
+2027-04-01,Bolivia,4.0,Seasonal_Naive_12,tourists
+2026-11-01,Bosnia And Herzegovina,22.0,Seasonal_Naive_12,tourists
+2026-12-01,Bosnia And Herzegovina,46.0,Seasonal_Naive_12,tourists
+2027-01-01,Bosnia And Herzegovina,96.0,Seasonal_Naive_12,tourists
+2027-02-01,Bosnia And Herzegovina,41.0,Seasonal_Naive_12,tourists
+2027-03-01,Bosnia And Herzegovina,13.0,Seasonal_Naive_12,tourists
+2027-04-01,Bosnia And Herzegovina,3.0,Seasonal_Naive_12,tourists
+2026-11-01,Botswana,1.0,Seasonal_Naive_12,tourists
+2026-12-01,Botswana,10.0,Seasonal_Naive_12,tourists
+2027-01-01,Botswana,8.0,Seasonal_Naive_12,tourists
+2027-02-01,Botswana,1.0,Seasonal_Naive_12,tourists
+2027-03-01,Botswana,1.0,Seasonal_Naive_12,tourists
+2027-04-01,Botswana,1.0,Seasonal_Naive_12,tourists
+2026-11-01,Brazil,257.0,Seasonal_Naive_12,tourists
+2026-12-01,Brazil,259.0,Seasonal_Naive_12,tourists
+2027-01-01,Brazil,194.0,Seasonal_Naive_12,tourists
+2027-02-01,Brazil,238.0,Seasonal_Naive_12,tourists
+2027-03-01,Brazil,168.0,Seasonal_Naive_12,tourists
+2027-04-01,Brazil,115.0,Seasonal_Naive_12,tourists
+2026-11-01,Brunei Darussalam,3.0,Seasonal_Naive_12,tourists
+2026-12-01,Brunei Darussalam,11.0,Seasonal_Naive_12,tourists
+2027-01-01,Brunei Darussalam,4.0,Seasonal_Naive_12,tourists
+2027-02-01,Brunei Darussalam,3.0,Seasonal_Naive_12,tourists
+2027-03-01,Brunei Darussalam,14.0,Seasonal_Naive_12,tourists
+2027-04-01,Brunei Darussalam,7.0,Seasonal_Naive_12,tourists
+2026-11-01,Bulgaria,557.0,Seasonal_Naive_12,tourists
+2026-12-01,Bulgaria,624.0,Seasonal_Naive_12,tourists
+2027-01-01,Bulgaria,705.0,Seasonal_Naive_12,tourists
+2027-02-01,Bulgaria,712.0,Seasonal_Naive_12,tourists
+2027-03-01,Bulgaria,410.0,Seasonal_Naive_12,tourists
+2027-04-01,Bulgaria,149.0,Seasonal_Naive_12,tourists
+2026-11-01,Burkina Faso,1.0,Seasonal_Naive_12,tourists
+2026-12-01,Burkina Faso,0.0,Seasonal_Naive_12,tourists
+2027-01-01,Burkina Faso,0.0,Seasonal_Naive_12,tourists
+2027-02-01,Burkina Faso,0.0,Seasonal_Naive_12,tourists
+2027-03-01,Burkina Faso,0.0,Seasonal_Naive_12,tourists
+2027-04-01,Burkina Faso,1.0,Seasonal_Naive_12,tourists
+2026-11-01,Burundi,1.0,Seasonal_Naive_12,tourists
+2026-12-01,Burundi,0.0,Seasonal_Naive_12,tourists
+2027-01-01,Burundi,1.0,Seasonal_Naive_12,tourists
+2027-02-01,Burundi,1.0,Seasonal_Naive_12,tourists
+2027-03-01,Burundi,0.0,Seasonal_Naive_12,tourists
+2027-04-01,Burundi,0.0,Seasonal_Naive_12,tourists
+2026-11-01,Cambodia,59.0,Seasonal_Naive_12,tourists
+2026-12-01,Cambodia,60.0,Seasonal_Naive_12,tourists
+2027-01-01,Cambodia,171.0,Seasonal_Naive_12,tourists
+2027-02-01,Cambodia,143.0,Seasonal_Naive_12,tourists
+2027-03-01,Cambodia,167.0,Seasonal_Naive_12,tourists
+2027-04-01,Cambodia,220.0,Seasonal_Naive_12,tourists
+2026-11-01,Cameroon,0.0,Seasonal_Naive_12,tourists
+2026-12-01,Cameroon,2.0,Seasonal_Naive_12,tourists
+2027-01-01,Cameroon,2.0,Seasonal_Naive_12,tourists
+2027-02-01,Cameroon,2.0,Seasonal_Naive_12,tourists
+2027-03-01,Cameroon,1.0,Seasonal_Naive_12,tourists
+2027-04-01,Cameroon,1.0,Seasonal_Naive_12,tourists
+2026-11-01,Canada,3327.0,Seasonal_Naive_12,tourists
+2026-12-01,Canada,3938.0,Seasonal_Naive_12,tourists
+2027-01-01,Canada,5048.0,Seasonal_Naive_12,tourists
+2027-02-01,Canada,4994.0,Seasonal_Naive_12,tourists
+2027-03-01,Canada,3475.0,Seasonal_Naive_12,tourists
+2027-04-01,Canada,2724.0,Seasonal_Naive_12,tourists
+2026-11-01,Cape Verde,0.0,Seasonal_Naive_12,tourists
+2026-12-01,Cape Verde,0.0,Seasonal_Naive_12,tourists
+2027-01-01,Cape Verde,0.0,Seasonal_Naive_12,tourists
+2027-02-01,Cape Verde,0.0,Seasonal_Naive_12,tourists
+2027-03-01,Cape Verde,0.0,Seasonal_Naive_12,tourists
+2027-04-01,Cape Verde,0.0,Seasonal_Naive_12,tourists
+2026-11-01,Central African Republic,0.0,Seasonal_Naive_12,tourists
+2026-12-01,Central African Republic,1.0,Seasonal_Naive_12,tourists
+2027-01-01,Central African Republic,0.0,Seasonal_Naive_12,tourists
+2027-02-01,Central African Republic,0.0,Seasonal_Naive_12,tourists
+2027-03-01,Central African Republic,0.0,Seasonal_Naive_12,tourists
+2027-04-01,Central African Republic,0.0,Seasonal_Naive_12,tourists
+2026-11-01,Chad,0.0,Seasonal_Naive_12,tourists
+2026-12-01,Chad,1.0,Seasonal_Naive_12,tourists
+2027-01-01,Chad,2.0,Seasonal_Naive_12,tourists
+2027-02-01,Chad,0.0,Seasonal_Naive_12,tourists
+2027-03-01,Chad,0.0,Seasonal_Naive_12,tourists
+2027-04-01,Chad,0.0,Seasonal_Naive_12,tourists
+2026-11-01,Chile,70.0,Seasonal_Naive_12,tourists
+2026-12-01,Chile,76.0,Seasonal_Naive_12,tourists
+2027-01-01,Chile,82.0,Seasonal_Naive_12,tourists
+2027-02-01,Chile,100.0,Seasonal_Naive_12,tourists
+2027-03-01,Chile,54.0,Seasonal_Naive_12,tourists
+2027-04-01,Chile,35.0,Seasonal_Naive_12,tourists
+2026-11-01,China,9217.0,Seasonal_Naive_12,tourists
+2026-12-01,China,10364.0,Seasonal_Naive_12,tourists
+2027-01-01,China,14003.0,Seasonal_Naive_12,tourists
+2027-02-01,China,20180.0,Seasonal_Naive_12,tourists
+2027-03-01,China,14064.0,Seasonal_Naive_12,tourists
+2027-04-01,China,10544.0,Seasonal_Naive_12,tourists
+2026-11-01,Colombia,73.0,Seasonal_Naive_12,tourists
+2026-12-01,Colombia,78.0,Seasonal_Naive_12,tourists
+2027-01-01,Colombia,75.0,Seasonal_Naive_12,tourists
+2027-02-01,Colombia,85.0,Seasonal_Naive_12,tourists
+2027-03-01,Colombia,59.0,Seasonal_Naive_12,tourists
+2027-04-01,Colombia,73.0,Seasonal_Naive_12,tourists
+2026-11-01,Comoros,14.0,Seasonal_Naive_12,tourists
+2026-12-01,Comoros,6.0,Seasonal_Naive_12,tourists
+2027-01-01,Comoros,6.0,Seasonal_Naive_12,tourists
+2027-02-01,Comoros,1.0,Seasonal_Naive_12,tourists
+2027-03-01,Comoros,1.0,Seasonal_Naive_12,tourists
+2027-04-01,Comoros,5.0,Seasonal_Naive_12,tourists
+2026-11-01,Congo,0.0,Seasonal_Naive_12,tourists
+2026-12-01,Congo,0.0,Seasonal_Naive_12,tourists
+2027-01-01,Congo,0.0,Seasonal_Naive_12,tourists
+2027-02-01,Congo,0.0,Seasonal_Naive_12,tourists
+2027-03-01,Congo,0.0,Seasonal_Naive_12,tourists
+2027-04-01,Congo,0.0,Seasonal_Naive_12,tourists
+2026-11-01,Costa Rica,7.0,Seasonal_Naive_12,tourists
+2026-12-01,Costa Rica,10.0,Seasonal_Naive_12,tourists
+2027-01-01,Costa Rica,16.0,Seasonal_Naive_12,tourists
+2027-02-01,Costa Rica,7.0,Seasonal_Naive_12,tourists
+2027-03-01,Costa Rica,7.0,Seasonal_Naive_12,tourists
+2027-04-01,Costa Rica,8.0,Seasonal_Naive_12,tourists
+2026-11-01,Cote D'Ivoire,1.0,Seasonal_Naive_12,tourists
+2026-12-01,Cote D'Ivoire,2.0,Seasonal_Naive_12,tourists
+2027-01-01,Cote D'Ivoire,2.0,Seasonal_Naive_12,tourists
+2027-02-01,Cote D'Ivoire,0.0,Seasonal_Naive_12,tourists
+2027-03-01,Cote D'Ivoire,1.0,Seasonal_Naive_12,tourists
+2027-04-01,Cote D'Ivoire,0.0,Seasonal_Naive_12,tourists
+2026-11-01,Croatia,279.0,Seasonal_Naive_12,tourists
+2026-12-01,Croatia,385.0,Seasonal_Naive_12,tourists
+2027-01-01,Croatia,337.0,Seasonal_Naive_12,tourists
+2027-02-01,Croatia,300.0,Seasonal_Naive_12,tourists
+2027-03-01,Croatia,84.0,Seasonal_Naive_12,tourists
+2027-04-01,Croatia,50.0,Seasonal_Naive_12,tourists
+2026-11-01,Cuba,2.0,Seasonal_Naive_12,tourists
+2026-12-01,Cuba,6.0,Seasonal_Naive_12,tourists
+2027-01-01,Cuba,5.0,Seasonal_Naive_12,tourists
+2027-02-01,Cuba,2.0,Seasonal_Naive_12,tourists
+2027-03-01,Cuba,5.0,Seasonal_Naive_12,tourists
+2027-04-01,Cuba,6.0,Seasonal_Naive_12,tourists
+2026-11-01,Cyprus,88.0,Seasonal_Naive_12,tourists
+2026-12-01,Cyprus,135.0,Seasonal_Naive_12,tourists
+2027-01-01,Cyprus,105.0,Seasonal_Naive_12,tourists
+2027-02-01,Cyprus,80.0,Seasonal_Naive_12,tourists
+2027-03-01,Cyprus,34.0,Seasonal_Naive_12,tourists
+2027-04-01,Cyprus,34.0,Seasonal_Naive_12,tourists
+2026-11-01,Czech Republic,2014.0,Seasonal_Naive_12,tourists
+2026-12-01,Czech Republic,2715.0,Seasonal_Naive_12,tourists
+2027-01-01,Czech Republic,3265.0,Seasonal_Naive_12,tourists
+2027-02-01,Czech Republic,3999.0,Seasonal_Naive_12,tourists
+2027-03-01,Czech Republic,748.0,Seasonal_Naive_12,tourists
+2027-04-01,Czech Republic,543.0,Seasonal_Naive_12,tourists
+2026-11-01,Democratic Republic Of Congo,2.0,Seasonal_Naive_12,tourists
+2026-12-01,Democratic Republic Of Congo,4.0,Seasonal_Naive_12,tourists
+2027-01-01,Democratic Republic Of Congo,1.0,Seasonal_Naive_12,tourists
+2027-02-01,Democratic Republic Of Congo,4.0,Seasonal_Naive_12,tourists
+2027-03-01,Democratic Republic Of Congo,2.0,Seasonal_Naive_12,tourists
+2027-04-01,Democratic Republic Of Congo,3.0,Seasonal_Naive_12,tourists
+2026-11-01,Denmark,1146.0,Seasonal_Naive_12,tourists
+2026-12-01,Denmark,1948.0,Seasonal_Naive_12,tourists
+2027-01-01,Denmark,3372.0,Seasonal_Naive_12,tourists
+2027-02-01,Denmark,3127.0,Seasonal_Naive_12,tourists
+2027-03-01,Denmark,1428.0,Seasonal_Naive_12,tourists
+2027-04-01,Denmark,807.0,Seasonal_Naive_12,tourists
+2026-11-01,Djibouti,2.0,Seasonal_Naive_12,tourists
+2026-12-01,Djibouti,0.0,Seasonal_Naive_12,tourists
+2027-01-01,Djibouti,5.0,Seasonal_Naive_12,tourists
+2027-02-01,Djibouti,1.0,Seasonal_Naive_12,tourists
+2027-03-01,Djibouti,0.0,Seasonal_Naive_12,tourists
+2027-04-01,Djibouti,0.0,Seasonal_Naive_12,tourists
+2026-11-01,Dominica,17.0,Seasonal_Naive_12,tourists
+2026-12-01,Dominica,17.0,Seasonal_Naive_12,tourists
+2027-01-01,Dominica,9.0,Seasonal_Naive_12,tourists
+2027-02-01,Dominica,9.0,Seasonal_Naive_12,tourists
+2027-03-01,Dominica,9.0,Seasonal_Naive_12,tourists
+2027-04-01,Dominica,7.0,Seasonal_Naive_12,tourists
+2026-11-01,Dominican Republic,9.0,Seasonal_Naive_12,tourists
+2026-12-01,Dominican Republic,2.0,Seasonal_Naive_12,tourists
+2027-01-01,Dominican Republic,3.0,Seasonal_Naive_12,tourists
+2027-02-01,Dominican Republic,4.0,Seasonal_Naive_12,tourists
+2027-03-01,Dominican Republic,1.0,Seasonal_Naive_12,tourists
+2027-04-01,Dominican Republic,4.0,Seasonal_Naive_12,tourists
+2026-11-01,Ecuador,16.0,Seasonal_Naive_12,tourists
+2026-12-01,Ecuador,24.0,Seasonal_Naive_12,tourists
+2027-01-01,Ecuador,14.0,Seasonal_Naive_12,tourists
+2027-02-01,Ecuador,15.0,Seasonal_Naive_12,tourists
+2027-03-01,Ecuador,22.0,Seasonal_Naive_12,tourists
+2027-04-01,Ecuador,12.0,Seasonal_Naive_12,tourists
+2026-11-01,Egypt,450.0,Seasonal_Naive_12,tourists
+2026-12-01,Egypt,485.0,Seasonal_Naive_12,tourists
+2027-01-01,Egypt,288.0,Seasonal_Naive_12,tourists
+2027-02-01,Egypt,201.0,Seasonal_Naive_12,tourists
+2027-03-01,Egypt,114.0,Seasonal_Naive_12,tourists
+2027-04-01,Egypt,126.0,Seasonal_Naive_12,tourists
+2026-11-01,El Salvador,4.0,Seasonal_Naive_12,tourists
+2026-12-01,El Salvador,2.0,Seasonal_Naive_12,tourists
+2027-01-01,El Salvador,1.0,Seasonal_Naive_12,tourists
+2027-02-01,El Salvador,5.0,Seasonal_Naive_12,tourists
+2027-03-01,El Salvador,2.0,Seasonal_Naive_12,tourists
+2027-04-01,El Salvador,0.0,Seasonal_Naive_12,tourists
+2026-11-01,Equatorial Guinea,0.0,Seasonal_Naive_12,tourists
+2026-12-01,Equatorial Guinea,0.0,Seasonal_Naive_12,tourists
+2027-01-01,Equatorial Guinea,0.0,Seasonal_Naive_12,tourists
+2027-02-01,Equatorial Guinea,0.0,Seasonal_Naive_12,tourists
+2027-03-01,Equatorial Guinea,0.0,Seasonal_Naive_12,tourists
+2027-04-01,Equatorial Guinea,1.0,Seasonal_Naive_12,tourists
+2026-11-01,Eritrea,1.0,Seasonal_Naive_12,tourists
+2026-12-01,Eritrea,5.0,Seasonal_Naive_12,tourists
+2027-01-01,Eritrea,9.0,Seasonal_Naive_12,tourists
+2027-02-01,Eritrea,0.0,Seasonal_Naive_12,tourists
+2027-03-01,Eritrea,3.0,Seasonal_Naive_12,tourists
+2027-04-01,Eritrea,2.0,Seasonal_Naive_12,tourists
+2026-11-01,Estonia,432.0,Seasonal_Naive_12,tourists
+2026-12-01,Estonia,864.0,Seasonal_Naive_12,tourists
+2027-01-01,Estonia,874.0,Seasonal_Naive_12,tourists
+2027-02-01,Estonia,875.0,Seasonal_Naive_12,tourists
+2027-03-01,Estonia,306.0,Seasonal_Naive_12,tourists
+2027-04-01,Estonia,118.0,Seasonal_Naive_12,tourists
+2026-11-01,Ethiopia,8.0,Seasonal_Naive_12,tourists
+2026-12-01,Ethiopia,26.0,Seasonal_Naive_12,tourists
+2027-01-01,Ethiopia,17.0,Seasonal_Naive_12,tourists
+2027-02-01,Ethiopia,16.0,Seasonal_Naive_12,tourists
+2027-03-01,Ethiopia,14.0,Seasonal_Naive_12,tourists
+2027-04-01,Ethiopia,16.0,Seasonal_Naive_12,tourists
+2026-11-01,Fiji,19.0,Seasonal_Naive_12,tourists
+2026-12-01,Fiji,33.0,Seasonal_Naive_12,tourists
+2027-01-01,Fiji,39.0,Seasonal_Naive_12,tourists
+2027-02-01,Fiji,17.0,Seasonal_Naive_12,tourists
+2027-03-01,Fiji,30.0,Seasonal_Naive_12,tourists
+2027-04-01,Fiji,20.0,Seasonal_Naive_12,tourists
+2026-11-01,Finland,704.0,Seasonal_Naive_12,tourists
+2026-12-01,Finland,1038.0,Seasonal_Naive_12,tourists
+2027-01-01,Finland,1180.0,Seasonal_Naive_12,tourists
+2027-02-01,Finland,917.0,Seasonal_Naive_12,tourists
+2027-03-01,Finland,319.0,Seasonal_Naive_12,tourists
+2027-04-01,Finland,131.0,Seasonal_Naive_12,tourists
+2026-11-01,France,8459.0,Seasonal_Naive_12,tourists
+2026-12-01,France,7270.0,Seasonal_Naive_12,tourists
+2027-01-01,France,13569.0,Seasonal_Naive_12,tourists
+2027-02-01,France,17174.0,Seasonal_Naive_12,tourists
+2027-03-01,France,8359.0,Seasonal_Naive_12,tourists
+2027-04-01,France,5844.0,Seasonal_Naive_12,tourists
+2026-11-01,Gabon,1.0,Seasonal_Naive_12,tourists
+2026-12-01,Gabon,0.0,Seasonal_Naive_12,tourists
+2027-01-01,Gabon,0.0,Seasonal_Naive_12,tourists
+2027-02-01,Gabon,1.0,Seasonal_Naive_12,tourists
+2027-03-01,Gabon,0.0,Seasonal_Naive_12,tourists
+2027-04-01,Gabon,1.0,Seasonal_Naive_12,tourists
+2026-11-01,Gambia,0.0,Seasonal_Naive_12,tourists
+2026-12-01,Gambia,0.0,Seasonal_Naive_12,tourists
+2027-01-01,Gambia,2.0,Seasonal_Naive_12,tourists
+2027-02-01,Gambia,3.0,Seasonal_Naive_12,tourists
+2027-03-01,Gambia,1.0,Seasonal_Naive_12,tourists
+2027-04-01,Gambia,3.0,Seasonal_Naive_12,tourists
+2026-11-01,Georgia,147.0,Seasonal_Naive_12,tourists
+2026-12-01,Georgia,101.0,Seasonal_Naive_12,tourists
+2027-01-01,Georgia,107.0,Seasonal_Naive_12,tourists
+2027-02-01,Georgia,156.0,Seasonal_Naive_12,tourists
+2027-03-01,Georgia,20.0,Seasonal_Naive_12,tourists
+2027-04-01,Georgia,14.0,Seasonal_Naive_12,tourists
+2026-11-01,Germany,14518.0,Seasonal_Naive_12,tourists
+2026-12-01,Germany,16707.0,Seasonal_Naive_12,tourists
+2027-01-01,Germany,17776.0,Seasonal_Naive_12,tourists
+2027-02-01,Germany,22566.0,Seasonal_Naive_12,tourists
+2027-03-01,Germany,13429.0,Seasonal_Naive_12,tourists
+2027-04-01,Germany,5518.0,Seasonal_Naive_12,tourists
+2026-11-01,Ghana,6.0,Seasonal_Naive_12,tourists
+2026-12-01,Ghana,10.0,Seasonal_Naive_12,tourists
+2027-01-01,Ghana,4.0,Seasonal_Naive_12,tourists
+2027-02-01,Ghana,2.0,Seasonal_Naive_12,tourists
+2027-03-01,Ghana,4.0,Seasonal_Naive_12,tourists
+2027-04-01,Ghana,3.0,Seasonal_Naive_12,tourists
+2026-11-01,Greece,509.0,Seasonal_Naive_12,tourists
+2026-12-01,Greece,857.0,Seasonal_Naive_12,tourists
+2027-01-01,Greece,631.0,Seasonal_Naive_12,tourists
+2027-02-01,Greece,800.0,Seasonal_Naive_12,tourists
+2027-03-01,Greece,135.0,Seasonal_Naive_12,tourists
+2027-04-01,Greece,166.0,Seasonal_Naive_12,tourists
+2026-11-01,Grenada,7.0,Seasonal_Naive_12,tourists
+2026-12-01,Grenada,1.0,Seasonal_Naive_12,tourists
+2027-01-01,Grenada,4.0,Seasonal_Naive_12,tourists
+2027-02-01,Grenada,2.0,Seasonal_Naive_12,tourists
+2027-03-01,Grenada,1.0,Seasonal_Naive_12,tourists
+2027-04-01,Grenada,3.0,Seasonal_Naive_12,tourists
+2026-11-01,Guam,0.0,Seasonal_Naive_12,tourists
+2026-12-01,Guam,0.0,Seasonal_Naive_12,tourists
+2027-01-01,Guam,0.0,Seasonal_Naive_12,tourists
+2027-02-01,Guam,0.0,Seasonal_Naive_12,tourists
+2027-03-01,Guam,0.0,Seasonal_Naive_12,tourists
+2027-04-01,Guam,0.0,Seasonal_Naive_12,tourists
+2026-11-01,Guatemala,8.0,Seasonal_Naive_12,tourists
+2026-12-01,Guatemala,8.0,Seasonal_Naive_12,tourists
+2027-01-01,Guatemala,8.0,Seasonal_Naive_12,tourists
+2027-02-01,Guatemala,29.0,Seasonal_Naive_12,tourists
+2027-03-01,Guatemala,6.0,Seasonal_Naive_12,tourists
+2027-04-01,Guatemala,4.0,Seasonal_Naive_12,tourists
+2026-11-01,Guinea,0.0,Seasonal_Naive_12,tourists
+2026-12-01,Guinea,0.0,Seasonal_Naive_12,tourists
+2027-01-01,Guinea,0.0,Seasonal_Naive_12,tourists
+2027-02-01,Guinea,0.0,Seasonal_Naive_12,tourists
+2027-03-01,Guinea,0.0,Seasonal_Naive_12,tourists
+2027-04-01,Guinea,0.0,Seasonal_Naive_12,tourists
+2026-11-01,Guinea-Bissau,0.0,Seasonal_Naive_12,tourists
+2026-12-01,Guinea-Bissau,0.0,Seasonal_Naive_12,tourists
+2027-01-01,Guinea-Bissau,0.0,Seasonal_Naive_12,tourists
+2027-02-01,Guinea-Bissau,0.0,Seasonal_Naive_12,tourists
+2027-03-01,Guinea-Bissau,0.0,Seasonal_Naive_12,tourists
+2027-04-01,Guinea-Bissau,0.0,Seasonal_Naive_12,tourists
+2026-11-01,Guyana,2.0,Seasonal_Naive_12,tourists
+2026-12-01,Guyana,0.0,Seasonal_Naive_12,tourists
+2027-01-01,Guyana,0.0,Seasonal_Naive_12,tourists
+2027-02-01,Guyana,3.0,Seasonal_Naive_12,tourists
+2027-03-01,Guyana,9.0,Seasonal_Naive_12,tourists
+2027-04-01,Guyana,0.0,Seasonal_Naive_12,tourists
+2026-11-01,Haiti,2.0,Seasonal_Naive_12,tourists
+2026-12-01,Haiti,1.0,Seasonal_Naive_12,tourists
+2027-01-01,Haiti,0.0,Seasonal_Naive_12,tourists
+2027-02-01,Haiti,0.0,Seasonal_Naive_12,tourists
+2027-03-01,Haiti,1.0,Seasonal_Naive_12,tourists
+2027-04-01,Haiti,2.0,Seasonal_Naive_12,tourists
+2026-11-01,Honduras,4.0,Seasonal_Naive_12,tourists
+2026-12-01,Honduras,5.0,Seasonal_Naive_12,tourists
+2027-01-01,Honduras,2.0,Seasonal_Naive_12,tourists
+2027-02-01,Honduras,5.0,Seasonal_Naive_12,tourists
+2027-03-01,Honduras,1.0,Seasonal_Naive_12,tourists
+2027-04-01,Honduras,2.0,Seasonal_Naive_12,tourists
+2026-11-01,Hong Kong,0.0,Seasonal_Naive_12,tourists
+2026-12-01,Hong Kong,0.0,Seasonal_Naive_12,tourists
+2027-01-01,Hong Kong,0.0,Seasonal_Naive_12,tourists
+2027-02-01,Hong Kong,0.0,Seasonal_Naive_12,tourists
+2027-03-01,Hong Kong,0.0,Seasonal_Naive_12,tourists
+2027-04-01,Hong Kong,0.0,Seasonal_Naive_12,tourists
+2026-11-01,Hungary,529.0,Seasonal_Naive_12,tourists
+2026-12-01,Hungary,953.0,Seasonal_Naive_12,tourists
+2027-01-01,Hungary,1353.0,Seasonal_Naive_12,tourists
+2027-02-01,Hungary,1191.0,Seasonal_Naive_12,tourists
+2027-03-01,Hungary,315.0,Seasonal_Naive_12,tourists
+2027-04-01,Hungary,234.0,Seasonal_Naive_12,tourists
+2026-11-01,Iceland,45.0,Seasonal_Naive_12,tourists
+2026-12-01,Iceland,58.0,Seasonal_Naive_12,tourists
+2027-01-01,Iceland,122.0,Seasonal_Naive_12,tourists
+2027-02-01,Iceland,63.0,Seasonal_Naive_12,tourists
+2027-03-01,Iceland,39.0,Seasonal_Naive_12,tourists
+2027-04-01,Iceland,18.0,Seasonal_Naive_12,tourists
+2026-11-01,India,51391.0,Seasonal_Naive_12,tourists
+2026-12-01,India,56715.0,Seasonal_Naive_12,tourists
+2027-01-01,India,52061.0,Seasonal_Naive_12,tourists
+2027-02-01,India,47679.0,Seasonal_Naive_12,tourists
+2027-03-01,India,47533.0,Seasonal_Naive_12,tourists
+2027-04-01,India,42645.0,Seasonal_Naive_12,tourists
+2026-11-01,Indonesia,616.0,Seasonal_Naive_12,tourists
+2026-12-01,Indonesia,457.0,Seasonal_Naive_12,tourists
+2027-01-01,Indonesia,572.0,Seasonal_Naive_12,tourists
+2027-02-01,Indonesia,695.0,Seasonal_Naive_12,tourists
+2027-03-01,Indonesia,719.0,Seasonal_Naive_12,tourists
+2027-04-01,Indonesia,484.0,Seasonal_Naive_12,tourists
+2026-11-01,Iran,1051.0,Seasonal_Naive_12,tourists
+2026-12-01,Iran,643.0,Seasonal_Naive_12,tourists
+2027-01-01,Iran,374.0,Seasonal_Naive_12,tourists
+2027-02-01,Iran,260.0,Seasonal_Naive_12,tourists
+2027-03-01,Iran,102.0,Seasonal_Naive_12,tourists
+2027-04-01,Iran,286.0,Seasonal_Naive_12,tourists
+2026-11-01,Iraq,101.0,Seasonal_Naive_12,tourists
+2026-12-01,Iraq,109.0,Seasonal_Naive_12,tourists
+2027-01-01,Iraq,91.0,Seasonal_Naive_12,tourists
+2027-02-01,Iraq,103.0,Seasonal_Naive_12,tourists
+2027-03-01,Iraq,8.0,Seasonal_Naive_12,tourists
+2027-04-01,Iraq,30.0,Seasonal_Naive_12,tourists
+2026-11-01,Ireland,983.0,Seasonal_Naive_12,tourists
+2026-12-01,Ireland,1269.0,Seasonal_Naive_12,tourists
+2027-01-01,Ireland,1442.0,Seasonal_Naive_12,tourists
+2027-02-01,Ireland,1591.0,Seasonal_Naive_12,tourists
+2027-03-01,Ireland,914.0,Seasonal_Naive_12,tourists
+2027-04-01,Ireland,516.0,Seasonal_Naive_12,tourists
+2026-11-01,Isle Of Man,0.0,Seasonal_Naive_12,tourists
+2026-12-01,Isle Of Man,0.0,Seasonal_Naive_12,tourists
+2027-01-01,Isle Of Man,0.0,Seasonal_Naive_12,tourists
+2027-02-01,Isle Of Man,0.0,Seasonal_Naive_12,tourists
+2027-03-01,Isle Of Man,0.0,Seasonal_Naive_12,tourists
+2027-04-01,Isle Of Man,0.0,Seasonal_Naive_12,tourists
+2026-11-01,Israel,1594.0,Seasonal_Naive_12,tourists
+2026-12-01,Israel,3515.0,Seasonal_Naive_12,tourists
+2027-01-01,Israel,3455.0,Seasonal_Naive_12,tourists
+2027-02-01,Israel,3173.0,Seasonal_Naive_12,tourists
+2027-03-01,Israel,870.0,Seasonal_Naive_12,tourists
+2027-04-01,Israel,749.0,Seasonal_Naive_12,tourists
+2026-11-01,Italy,3005.0,Seasonal_Naive_12,tourists
+2026-12-01,Italy,6482.0,Seasonal_Naive_12,tourists
+2027-01-01,Italy,5840.0,Seasonal_Naive_12,tourists
+2027-02-01,Italy,5252.0,Seasonal_Naive_12,tourists
+2027-03-01,Italy,1704.0,Seasonal_Naive_12,tourists
+2027-04-01,Italy,1280.0,Seasonal_Naive_12,tourists
+2026-11-01,Jamaica,3.0,Seasonal_Naive_12,tourists
+2026-12-01,Jamaica,9.0,Seasonal_Naive_12,tourists
+2027-01-01,Jamaica,3.0,Seasonal_Naive_12,tourists
+2027-02-01,Jamaica,8.0,Seasonal_Naive_12,tourists
+2027-03-01,Jamaica,2.0,Seasonal_Naive_12,tourists
+2027-04-01,Jamaica,6.0,Seasonal_Naive_12,tourists
+2026-11-01,Japan,2704.0,Seasonal_Naive_12,tourists
+2026-12-01,Japan,4397.0,Seasonal_Naive_12,tourists
+2027-01-01,Japan,2896.0,Seasonal_Naive_12,tourists
+2027-02-01,Japan,4239.0,Seasonal_Naive_12,tourists
+2027-03-01,Japan,4440.0,Seasonal_Naive_12,tourists
+2027-04-01,Japan,2784.0,Seasonal_Naive_12,tourists
+2026-11-01,Jordan,351.0,Seasonal_Naive_12,tourists
+2026-12-01,Jordan,369.0,Seasonal_Naive_12,tourists
+2027-01-01,Jordan,280.0,Seasonal_Naive_12,tourists
+2027-02-01,Jordan,113.0,Seasonal_Naive_12,tourists
+2027-03-01,Jordan,75.0,Seasonal_Naive_12,tourists
+2027-04-01,Jordan,55.0,Seasonal_Naive_12,tourists
+2026-11-01,Kazakhstan,298.0,Seasonal_Naive_12,tourists
+2026-12-01,Kazakhstan,771.0,Seasonal_Naive_12,tourists
+2027-01-01,Kazakhstan,2061.0,Seasonal_Naive_12,tourists
+2027-02-01,Kazakhstan,1369.0,Seasonal_Naive_12,tourists
+2027-03-01,Kazakhstan,149.0,Seasonal_Naive_12,tourists
+2027-04-01,Kazakhstan,73.0,Seasonal_Naive_12,tourists
+2026-11-01,Kenya,61.0,Seasonal_Naive_12,tourists
+2026-12-01,Kenya,149.0,Seasonal_Naive_12,tourists
+2027-01-01,Kenya,83.0,Seasonal_Naive_12,tourists
+2027-02-01,Kenya,95.0,Seasonal_Naive_12,tourists
+2027-03-01,Kenya,32.0,Seasonal_Naive_12,tourists
+2027-04-01,Kenya,59.0,Seasonal_Naive_12,tourists
+2026-11-01,Kiribati,0.0,Seasonal_Naive_12,tourists
+2026-12-01,Kiribati,0.0,Seasonal_Naive_12,tourists
+2027-01-01,Kiribati,0.0,Seasonal_Naive_12,tourists
+2027-02-01,Kiribati,0.0,Seasonal_Naive_12,tourists
+2027-03-01,Kiribati,0.0,Seasonal_Naive_12,tourists
+2027-04-01,Kiribati,0.0,Seasonal_Naive_12,tourists
+2026-11-01,Korea,0.0,Seasonal_Naive_12,tourists
+2026-12-01,Korea,0.0,Seasonal_Naive_12,tourists
+2027-01-01,Korea,0.0,Seasonal_Naive_12,tourists
+2027-02-01,Korea,0.0,Seasonal_Naive_12,tourists
+2027-03-01,Korea,0.0,Seasonal_Naive_12,tourists
+2027-04-01,Korea,0.0,Seasonal_Naive_12,tourists
+2026-11-01,Kosovo,16.0,Seasonal_Naive_12,tourists
+2026-12-01,Kosovo,2.0,Seasonal_Naive_12,tourists
+2027-01-01,Kosovo,6.0,Seasonal_Naive_12,tourists
+2027-02-01,Kosovo,15.0,Seasonal_Naive_12,tourists
+2027-03-01,Kosovo,0.0,Seasonal_Naive_12,tourists
+2027-04-01,Kosovo,4.0,Seasonal_Naive_12,tourists
+2026-11-01,Kuwait,99.0,Seasonal_Naive_12,tourists
+2026-12-01,Kuwait,160.0,Seasonal_Naive_12,tourists
+2027-01-01,Kuwait,319.0,Seasonal_Naive_12,tourists
+2027-02-01,Kuwait,69.0,Seasonal_Naive_12,tourists
+2027-03-01,Kuwait,17.0,Seasonal_Naive_12,tourists
+2027-04-01,Kuwait,14.0,Seasonal_Naive_12,tourists
+2026-11-01,Kyrgyzstan,79.0,Seasonal_Naive_12,tourists
+2026-12-01,Kyrgyzstan,100.0,Seasonal_Naive_12,tourists
+2027-01-01,Kyrgyzstan,206.0,Seasonal_Naive_12,tourists
+2027-02-01,Kyrgyzstan,100.0,Seasonal_Naive_12,tourists
+2027-03-01,Kyrgyzstan,18.0,Seasonal_Naive_12,tourists
+2027-04-01,Kyrgyzstan,18.0,Seasonal_Naive_12,tourists
+2026-11-01,Laos,9.0,Seasonal_Naive_12,tourists
+2026-12-01,Laos,9.0,Seasonal_Naive_12,tourists
+2027-01-01,Laos,37.0,Seasonal_Naive_12,tourists
+2027-02-01,Laos,42.0,Seasonal_Naive_12,tourists
+2027-03-01,Laos,38.0,Seasonal_Naive_12,tourists
+2027-04-01,Laos,48.0,Seasonal_Naive_12,tourists
+2026-11-01,Latvia,336.0,Seasonal_Naive_12,tourists
+2026-12-01,Latvia,569.0,Seasonal_Naive_12,tourists
+2027-01-01,Latvia,560.0,Seasonal_Naive_12,tourists
+2027-02-01,Latvia,556.0,Seasonal_Naive_12,tourists
+2027-03-01,Latvia,310.0,Seasonal_Naive_12,tourists
+2027-04-01,Latvia,58.0,Seasonal_Naive_12,tourists
+2026-11-01,Lebanon,333.0,Seasonal_Naive_12,tourists
+2026-12-01,Lebanon,452.0,Seasonal_Naive_12,tourists
+2027-01-01,Lebanon,197.0,Seasonal_Naive_12,tourists
+2027-02-01,Lebanon,201.0,Seasonal_Naive_12,tourists
+2027-03-01,Lebanon,161.0,Seasonal_Naive_12,tourists
+2027-04-01,Lebanon,109.0,Seasonal_Naive_12,tourists
+2026-11-01,Lesotho,0.0,Seasonal_Naive_12,tourists
+2026-12-01,Lesotho,0.0,Seasonal_Naive_12,tourists
+2027-01-01,Lesotho,1.0,Seasonal_Naive_12,tourists
+2027-02-01,Lesotho,2.0,Seasonal_Naive_12,tourists
+2027-03-01,Lesotho,0.0,Seasonal_Naive_12,tourists
+2027-04-01,Lesotho,0.0,Seasonal_Naive_12,tourists
+2026-11-01,Liberia,3.0,Seasonal_Naive_12,tourists
+2026-12-01,Liberia,1.0,Seasonal_Naive_12,tourists
+2027-01-01,Liberia,0.0,Seasonal_Naive_12,tourists
+2027-02-01,Liberia,0.0,Seasonal_Naive_12,tourists
+2027-03-01,Liberia,0.0,Seasonal_Naive_12,tourists
+2027-04-01,Liberia,0.0,Seasonal_Naive_12,tourists
+2026-11-01,Libya,2.0,Seasonal_Naive_12,tourists
+2026-12-01,Libya,1.0,Seasonal_Naive_12,tourists
+2027-01-01,Libya,7.0,Seasonal_Naive_12,tourists
+2027-02-01,Libya,5.0,Seasonal_Naive_12,tourists
+2027-03-01,Libya,0.0,Seasonal_Naive_12,tourists
+2027-04-01,Libya,1.0,Seasonal_Naive_12,tourists
+2026-11-01,Liechtenstein,9.0,Seasonal_Naive_12,tourists
+2026-12-01,Liechtenstein,22.0,Seasonal_Naive_12,tourists
+2027-01-01,Liechtenstein,15.0,Seasonal_Naive_12,tourists
+2027-02-01,Liechtenstein,6.0,Seasonal_Naive_12,tourists
+2027-03-01,Liechtenstein,6.0,Seasonal_Naive_12,tourists
+2027-04-01,Liechtenstein,1.0,Seasonal_Naive_12,tourists
+2026-11-01,Lithuania,507.0,Seasonal_Naive_12,tourists
+2026-12-01,Lithuania,661.0,Seasonal_Naive_12,tourists
+2027-01-01,Lithuania,923.0,Seasonal_Naive_12,tourists
+2027-02-01,Lithuania,1063.0,Seasonal_Naive_12,tourists
+2027-03-01,Lithuania,371.0,Seasonal_Naive_12,tourists
+2027-04-01,Lithuania,147.0,Seasonal_Naive_12,tourists
+2026-11-01,Luxembourg,88.0,Seasonal_Naive_12,tourists
+2026-12-01,Luxembourg,102.0,Seasonal_Naive_12,tourists
+2027-01-01,Luxembourg,84.0,Seasonal_Naive_12,tourists
+2027-02-01,Luxembourg,105.0,Seasonal_Naive_12,tourists
+2027-03-01,Luxembourg,123.0,Seasonal_Naive_12,tourists
+2027-04-01,Luxembourg,36.0,Seasonal_Naive_12,tourists
+2026-11-01,Macedonia,12.0,Seasonal_Naive_12,tourists
+2026-12-01,Macedonia,20.0,Seasonal_Naive_12,tourists
+2027-01-01,Macedonia,18.0,Seasonal_Naive_12,tourists
+2027-02-01,Macedonia,25.0,Seasonal_Naive_12,tourists
+2027-03-01,Macedonia,16.0,Seasonal_Naive_12,tourists
+2027-04-01,Macedonia,7.0,Seasonal_Naive_12,tourists
+2026-11-01,Madagascar,9.0,Seasonal_Naive_12,tourists
+2026-12-01,Madagascar,11.0,Seasonal_Naive_12,tourists
+2027-01-01,Madagascar,27.0,Seasonal_Naive_12,tourists
+2027-02-01,Madagascar,31.0,Seasonal_Naive_12,tourists
+2027-03-01,Madagascar,14.0,Seasonal_Naive_12,tourists
+2027-04-01,Madagascar,20.0,Seasonal_Naive_12,tourists
+2026-11-01,Malawi,3.0,Seasonal_Naive_12,tourists
+2026-12-01,Malawi,3.0,Seasonal_Naive_12,tourists
+2027-01-01,Malawi,2.0,Seasonal_Naive_12,tourists
+2027-02-01,Malawi,5.0,Seasonal_Naive_12,tourists
+2027-03-01,Malawi,5.0,Seasonal_Naive_12,tourists
+2027-04-01,Malawi,10.0,Seasonal_Naive_12,tourists
+2026-11-01,Malaysia,2155.0,Seasonal_Naive_12,tourists
+2026-12-01,Malaysia,2248.0,Seasonal_Naive_12,tourists
+2027-01-01,Malaysia,1566.0,Seasonal_Naive_12,tourists
+2027-02-01,Malaysia,2322.0,Seasonal_Naive_12,tourists
+2027-03-01,Malaysia,2502.0,Seasonal_Naive_12,tourists
+2027-04-01,Malaysia,1550.0,Seasonal_Naive_12,tourists
+2026-11-01,Maldives,2357.0,Seasonal_Naive_12,tourists
+2026-12-01,Maldives,3887.0,Seasonal_Naive_12,tourists
+2027-01-01,Maldives,4789.0,Seasonal_Naive_12,tourists
+2027-02-01,Maldives,1913.0,Seasonal_Naive_12,tourists
+2027-03-01,Maldives,1618.0,Seasonal_Naive_12,tourists
+2027-04-01,Maldives,2455.0,Seasonal_Naive_12,tourists
+2026-11-01,Mali,0.0,Seasonal_Naive_12,tourists
+2026-12-01,Mali,0.0,Seasonal_Naive_12,tourists
+2027-01-01,Mali,0.0,Seasonal_Naive_12,tourists
+2027-02-01,Mali,2.0,Seasonal_Naive_12,tourists
+2027-03-01,Mali,0.0,Seasonal_Naive_12,tourists
+2027-04-01,Mali,2.0,Seasonal_Naive_12,tourists
+2026-11-01,Malta,87.0,Seasonal_Naive_12,tourists
+2026-12-01,Malta,173.0,Seasonal_Naive_12,tourists
+2027-01-01,Malta,129.0,Seasonal_Naive_12,tourists
+2027-02-01,Malta,158.0,Seasonal_Naive_12,tourists
+2027-03-01,Malta,95.0,Seasonal_Naive_12,tourists
+2027-04-01,Malta,26.0,Seasonal_Naive_12,tourists
+2026-11-01,Marshall Islands,0.0,Seasonal_Naive_12,tourists
+2026-12-01,Marshall Islands,0.0,Seasonal_Naive_12,tourists
+2027-01-01,Marshall Islands,0.0,Seasonal_Naive_12,tourists
+2027-02-01,Marshall Islands,0.0,Seasonal_Naive_12,tourists
+2027-03-01,Marshall Islands,0.0,Seasonal_Naive_12,tourists
+2027-04-01,Marshall Islands,0.0,Seasonal_Naive_12,tourists
+2026-11-01,Mauritania,0.0,Seasonal_Naive_12,tourists
+2026-12-01,Mauritania,0.0,Seasonal_Naive_12,tourists
+2027-01-01,Mauritania,1.0,Seasonal_Naive_12,tourists
+2027-02-01,Mauritania,1.0,Seasonal_Naive_12,tourists
+2027-03-01,Mauritania,0.0,Seasonal_Naive_12,tourists
+2027-04-01,Mauritania,1.0,Seasonal_Naive_12,tourists
+2026-11-01,Mauritius,180.0,Seasonal_Naive_12,tourists
+2026-12-01,Mauritius,143.0,Seasonal_Naive_12,tourists
+2027-01-01,Mauritius,101.0,Seasonal_Naive_12,tourists
+2027-02-01,Mauritius,130.0,Seasonal_Naive_12,tourists
+2027-03-01,Mauritius,97.0,Seasonal_Naive_12,tourists
+2027-04-01,Mauritius,73.0,Seasonal_Naive_12,tourists
+2026-11-01,Mexico,153.0,Seasonal_Naive_12,tourists
+2026-12-01,Mexico,152.0,Seasonal_Naive_12,tourists
+2027-01-01,Mexico,111.0,Seasonal_Naive_12,tourists
+2027-02-01,Mexico,144.0,Seasonal_Naive_12,tourists
+2027-03-01,Mexico,114.0,Seasonal_Naive_12,tourists
+2027-04-01,Mexico,116.0,Seasonal_Naive_12,tourists
+2026-11-01,Micronesia,0.0,Seasonal_Naive_12,tourists
+2026-12-01,Micronesia,0.0,Seasonal_Naive_12,tourists
+2027-01-01,Micronesia,0.0,Seasonal_Naive_12,tourists
+2027-02-01,Micronesia,1.0,Seasonal_Naive_12,tourists
+2027-03-01,Micronesia,0.0,Seasonal_Naive_12,tourists
+2027-04-01,Micronesia,0.0,Seasonal_Naive_12,tourists
+2026-11-01,Moldova,67.0,Seasonal_Naive_12,tourists
+2026-12-01,Moldova,99.0,Seasonal_Naive_12,tourists
+2027-01-01,Moldova,153.0,Seasonal_Naive_12,tourists
+2027-02-01,Moldova,87.0,Seasonal_Naive_12,tourists
+2027-03-01,Moldova,18.0,Seasonal_Naive_12,tourists
+2027-04-01,Moldova,4.0,Seasonal_Naive_12,tourists
+2026-11-01,Monaco,2.0,Seasonal_Naive_12,tourists
+2026-12-01,Monaco,3.0,Seasonal_Naive_12,tourists
+2027-01-01,Monaco,2.0,Seasonal_Naive_12,tourists
+2027-02-01,Monaco,4.0,Seasonal_Naive_12,tourists
+2027-03-01,Monaco,4.0,Seasonal_Naive_12,tourists
+2027-04-01,Monaco,3.0,Seasonal_Naive_12,tourists
+2026-11-01,Mongolia,29.0,Seasonal_Naive_12,tourists
+2026-12-01,Mongolia,36.0,Seasonal_Naive_12,tourists
+2027-01-01,Mongolia,39.0,Seasonal_Naive_12,tourists
+2027-02-01,Mongolia,7.0,Seasonal_Naive_12,tourists
+2027-03-01,Mongolia,15.0,Seasonal_Naive_12,tourists
+2027-04-01,Mongolia,19.0,Seasonal_Naive_12,tourists
+2026-11-01,Montenegro,31.0,Seasonal_Naive_12,tourists
+2026-12-01,Montenegro,60.0,Seasonal_Naive_12,tourists
+2027-01-01,Montenegro,37.0,Seasonal_Naive_12,tourists
+2027-02-01,Montenegro,9.0,Seasonal_Naive_12,tourists
+2027-03-01,Montenegro,1.0,Seasonal_Naive_12,tourists
+2027-04-01,Montenegro,6.0,Seasonal_Naive_12,tourists
+2026-11-01,Morocco,91.0,Seasonal_Naive_12,tourists
+2026-12-01,Morocco,117.0,Seasonal_Naive_12,tourists
+2027-01-01,Morocco,92.0,Seasonal_Naive_12,tourists
+2027-02-01,Morocco,52.0,Seasonal_Naive_12,tourists
+2027-03-01,Morocco,52.0,Seasonal_Naive_12,tourists
+2027-04-01,Morocco,71.0,Seasonal_Naive_12,tourists
+2026-11-01,Mozambique,3.0,Seasonal_Naive_12,tourists
+2026-12-01,Mozambique,7.0,Seasonal_Naive_12,tourists
+2027-01-01,Mozambique,2.0,Seasonal_Naive_12,tourists
+2027-02-01,Mozambique,3.0,Seasonal_Naive_12,tourists
+2027-03-01,Mozambique,2.0,Seasonal_Naive_12,tourists
+2027-04-01,Mozambique,3.0,Seasonal_Naive_12,tourists
+2026-11-01,Myanmar,380.0,Seasonal_Naive_12,tourists
+2026-12-01,Myanmar,153.0,Seasonal_Naive_12,tourists
+2027-01-01,Myanmar,705.0,Seasonal_Naive_12,tourists
+2027-02-01,Myanmar,473.0,Seasonal_Naive_12,tourists
+2027-03-01,Myanmar,347.0,Seasonal_Naive_12,tourists
+2027-04-01,Myanmar,266.0,Seasonal_Naive_12,tourists
+2026-11-01,Namibia,0.0,Seasonal_Naive_12,tourists
+2026-12-01,Namibia,5.0,Seasonal_Naive_12,tourists
+2027-01-01,Namibia,0.0,Seasonal_Naive_12,tourists
+2027-02-01,Namibia,32.0,Seasonal_Naive_12,tourists
+2027-03-01,Namibia,0.0,Seasonal_Naive_12,tourists
+2027-04-01,Namibia,2.0,Seasonal_Naive_12,tourists
+2026-11-01,Nauru,0.0,Seasonal_Naive_12,tourists
+2026-12-01,Nauru,0.0,Seasonal_Naive_12,tourists
+2027-01-01,Nauru,0.0,Seasonal_Naive_12,tourists
+2027-02-01,Nauru,0.0,Seasonal_Naive_12,tourists
+2027-03-01,Nauru,0.0,Seasonal_Naive_12,tourists
+2027-04-01,Nauru,0.0,Seasonal_Naive_12,tourists
+2026-11-01,Nepal,455.0,Seasonal_Naive_12,tourists
+2026-12-01,Nepal,534.0,Seasonal_Naive_12,tourists
+2027-01-01,Nepal,979.0,Seasonal_Naive_12,tourists
+2027-02-01,Nepal,571.0,Seasonal_Naive_12,tourists
+2027-03-01,Nepal,371.0,Seasonal_Naive_12,tourists
+2027-04-01,Nepal,357.0,Seasonal_Naive_12,tourists
+2026-11-01,Netherlands,3938.0,Seasonal_Naive_12,tourists
+2026-12-01,Netherlands,4575.0,Seasonal_Naive_12,tourists
+2027-01-01,Netherlands,7107.0,Seasonal_Naive_12,tourists
+2027-02-01,Netherlands,6146.0,Seasonal_Naive_12,tourists
+2027-03-01,Netherlands,2427.0,Seasonal_Naive_12,tourists
+2027-04-01,Netherlands,2760.0,Seasonal_Naive_12,tourists
+2026-11-01,Netherlands Antilles,0.0,Seasonal_Naive_12,tourists
+2026-12-01,Netherlands Antilles,0.0,Seasonal_Naive_12,tourists
+2027-01-01,Netherlands Antilles,0.0,Seasonal_Naive_12,tourists
+2027-02-01,Netherlands Antilles,0.0,Seasonal_Naive_12,tourists
+2027-03-01,Netherlands Antilles,0.0,Seasonal_Naive_12,tourists
+2027-04-01,Netherlands Antilles,0.0,Seasonal_Naive_12,tourists
+2026-11-01,New Zealand,1126.0,Seasonal_Naive_12,tourists
+2026-12-01,New Zealand,1850.0,Seasonal_Naive_12,tourists
+2027-01-01,New Zealand,1103.0,Seasonal_Naive_12,tourists
+2027-02-01,New Zealand,975.0,Seasonal_Naive_12,tourists
+2027-03-01,New Zealand,1242.0,Seasonal_Naive_12,tourists
+2027-04-01,New Zealand,1278.0,Seasonal_Naive_12,tourists
+2026-11-01,Nicaragua,1.0,Seasonal_Naive_12,tourists
+2026-12-01,Nicaragua,4.0,Seasonal_Naive_12,tourists
+2027-01-01,Nicaragua,1.0,Seasonal_Naive_12,tourists
+2027-02-01,Nicaragua,2.0,Seasonal_Naive_12,tourists
+2027-03-01,Nicaragua,0.0,Seasonal_Naive_12,tourists
+2027-04-01,Nicaragua,1.0,Seasonal_Naive_12,tourists
+2026-11-01,Niger,0.0,Seasonal_Naive_12,tourists
+2026-12-01,Niger,0.0,Seasonal_Naive_12,tourists
+2027-01-01,Niger,3.0,Seasonal_Naive_12,tourists
+2027-02-01,Niger,0.0,Seasonal_Naive_12,tourists
+2027-03-01,Niger,0.0,Seasonal_Naive_12,tourists
+2027-04-01,Niger,0.0,Seasonal_Naive_12,tourists
+2026-11-01,Nigeria,10.0,Seasonal_Naive_12,tourists
+2026-12-01,Nigeria,5.0,Seasonal_Naive_12,tourists
+2027-01-01,Nigeria,12.0,Seasonal_Naive_12,tourists
+2027-02-01,Nigeria,18.0,Seasonal_Naive_12,tourists
+2027-03-01,Nigeria,3.0,Seasonal_Naive_12,tourists
+2027-04-01,Nigeria,7.0,Seasonal_Naive_12,tourists
+2026-11-01,Norway,968.0,Seasonal_Naive_12,tourists
+2026-12-01,Norway,1748.0,Seasonal_Naive_12,tourists
+2027-01-01,Norway,1717.0,Seasonal_Naive_12,tourists
+2027-02-01,Norway,1708.0,Seasonal_Naive_12,tourists
+2027-03-01,Norway,746.0,Seasonal_Naive_12,tourists
+2027-04-01,Norway,349.0,Seasonal_Naive_12,tourists
+2026-11-01,Oman,170.0,Seasonal_Naive_12,tourists
+2026-12-01,Oman,152.0,Seasonal_Naive_12,tourists
+2027-01-01,Oman,271.0,Seasonal_Naive_12,tourists
+2027-02-01,Oman,69.0,Seasonal_Naive_12,tourists
+2027-03-01,Oman,76.0,Seasonal_Naive_12,tourists
+2027-04-01,Oman,67.0,Seasonal_Naive_12,tourists
+2026-11-01,Pakistan,1721.0,Seasonal_Naive_12,tourists
+2026-12-01,Pakistan,1595.0,Seasonal_Naive_12,tourists
+2027-01-01,Pakistan,1584.0,Seasonal_Naive_12,tourists
+2027-02-01,Pakistan,2032.0,Seasonal_Naive_12,tourists
+2027-03-01,Pakistan,1158.0,Seasonal_Naive_12,tourists
+2027-04-01,Pakistan,1240.0,Seasonal_Naive_12,tourists
+2026-11-01,Palau,0.0,Seasonal_Naive_12,tourists
+2026-12-01,Palau,0.0,Seasonal_Naive_12,tourists
+2027-01-01,Palau,0.0,Seasonal_Naive_12,tourists
+2027-02-01,Palau,0.0,Seasonal_Naive_12,tourists
+2027-03-01,Palau,0.0,Seasonal_Naive_12,tourists
+2027-04-01,Palau,0.0,Seasonal_Naive_12,tourists
+2026-11-01,Palestinian Territories,71.0,Seasonal_Naive_12,tourists
+2026-12-01,Palestinian Territories,66.0,Seasonal_Naive_12,tourists
+2027-01-01,Palestinian Territories,52.0,Seasonal_Naive_12,tourists
+2027-02-01,Palestinian Territories,32.0,Seasonal_Naive_12,tourists
+2027-03-01,Palestinian Territories,14.0,Seasonal_Naive_12,tourists
+2027-04-01,Palestinian Territories,28.0,Seasonal_Naive_12,tourists
+2026-11-01,Panama,7.0,Seasonal_Naive_12,tourists
+2026-12-01,Panama,2.0,Seasonal_Naive_12,tourists
+2027-01-01,Panama,3.0,Seasonal_Naive_12,tourists
+2027-02-01,Panama,2.0,Seasonal_Naive_12,tourists
+2027-03-01,Panama,0.0,Seasonal_Naive_12,tourists
+2027-04-01,Panama,1.0,Seasonal_Naive_12,tourists
+2026-11-01,Papua New Guinea,5.0,Seasonal_Naive_12,tourists
+2026-12-01,Papua New Guinea,7.0,Seasonal_Naive_12,tourists
+2027-01-01,Papua New Guinea,9.0,Seasonal_Naive_12,tourists
+2027-02-01,Papua New Guinea,10.0,Seasonal_Naive_12,tourists
+2027-03-01,Papua New Guinea,9.0,Seasonal_Naive_12,tourists
+2027-04-01,Papua New Guinea,2.0,Seasonal_Naive_12,tourists
+2026-11-01,Paraguay,1.0,Seasonal_Naive_12,tourists
+2026-12-01,Paraguay,1.0,Seasonal_Naive_12,tourists
+2027-01-01,Paraguay,11.0,Seasonal_Naive_12,tourists
+2027-02-01,Paraguay,16.0,Seasonal_Naive_12,tourists
+2027-03-01,Paraguay,1.0,Seasonal_Naive_12,tourists
+2027-04-01,Paraguay,2.0,Seasonal_Naive_12,tourists
+2026-11-01,Peru,24.0,Seasonal_Naive_12,tourists
+2026-12-01,Peru,32.0,Seasonal_Naive_12,tourists
+2027-01-01,Peru,24.0,Seasonal_Naive_12,tourists
+2027-02-01,Peru,23.0,Seasonal_Naive_12,tourists
+2027-03-01,Peru,15.0,Seasonal_Naive_12,tourists
+2027-04-01,Peru,14.0,Seasonal_Naive_12,tourists
+2026-11-01,Philippines,580.0,Seasonal_Naive_12,tourists
+2026-12-01,Philippines,512.0,Seasonal_Naive_12,tourists
+2027-01-01,Philippines,421.0,Seasonal_Naive_12,tourists
+2027-02-01,Philippines,511.0,Seasonal_Naive_12,tourists
+2027-03-01,Philippines,672.0,Seasonal_Naive_12,tourists
+2027-04-01,Philippines,593.0,Seasonal_Naive_12,tourists
+2026-11-01,Poland,5331.0,Seasonal_Naive_12,tourists
+2026-12-01,Poland,6870.0,Seasonal_Naive_12,tourists
+2027-01-01,Poland,10334.0,Seasonal_Naive_12,tourists
+2027-02-01,Poland,10467.0,Seasonal_Naive_12,tourists
+2027-03-01,Poland,1139.0,Seasonal_Naive_12,tourists
+2027-04-01,Poland,549.0,Seasonal_Naive_12,tourists
+2026-11-01,Portugal,1021.0,Seasonal_Naive_12,tourists
+2026-12-01,Portugal,704.0,Seasonal_Naive_12,tourists
+2027-01-01,Portugal,741.0,Seasonal_Naive_12,tourists
+2027-02-01,Portugal,952.0,Seasonal_Naive_12,tourists
+2027-03-01,Portugal,395.0,Seasonal_Naive_12,tourists
+2027-04-01,Portugal,341.0,Seasonal_Naive_12,tourists
+2026-11-01,Qatar,36.0,Seasonal_Naive_12,tourists
+2026-12-01,Qatar,68.0,Seasonal_Naive_12,tourists
+2027-01-01,Qatar,61.0,Seasonal_Naive_12,tourists
+2027-02-01,Qatar,29.0,Seasonal_Naive_12,tourists
+2027-03-01,Qatar,7.0,Seasonal_Naive_12,tourists
+2027-04-01,Qatar,13.0,Seasonal_Naive_12,tourists
+2026-11-01,Republic Of Congo,2.0,Seasonal_Naive_12,tourists
+2026-12-01,Republic Of Congo,4.0,Seasonal_Naive_12,tourists
+2027-01-01,Republic Of Congo,0.0,Seasonal_Naive_12,tourists
+2027-02-01,Republic Of Congo,2.0,Seasonal_Naive_12,tourists
+2027-03-01,Republic Of Congo,1.0,Seasonal_Naive_12,tourists
+2027-04-01,Republic Of Congo,0.0,Seasonal_Naive_12,tourists
+2026-11-01,Romania,451.0,Seasonal_Naive_12,tourists
+2026-12-01,Romania,1367.0,Seasonal_Naive_12,tourists
+2027-01-01,Romania,876.0,Seasonal_Naive_12,tourists
+2027-02-01,Romania,1066.0,Seasonal_Naive_12,tourists
+2027-03-01,Romania,270.0,Seasonal_Naive_12,tourists
+2027-04-01,Romania,357.0,Seasonal_Naive_12,tourists
+2026-11-01,Russian Federation,24953.0,Seasonal_Naive_12,tourists
+2026-12-01,Russian Federation,27987.0,Seasonal_Naive_12,tourists
+2027-01-01,Russian Federation,27134.0,Seasonal_Naive_12,tourists
+2027-02-01,Russian Federation,23099.0,Seasonal_Naive_12,tourists
+2027-03-01,Russian Federation,15685.0,Seasonal_Naive_12,tourists
+2027-04-01,Russian Federation,6898.0,Seasonal_Naive_12,tourists
+2026-11-01,Rwanda,0.0,Seasonal_Naive_12,tourists
+2026-12-01,Rwanda,4.0,Seasonal_Naive_12,tourists
+2027-01-01,Rwanda,5.0,Seasonal_Naive_12,tourists
+2027-02-01,Rwanda,0.0,Seasonal_Naive_12,tourists
+2027-03-01,Rwanda,3.0,Seasonal_Naive_12,tourists
+2027-04-01,Rwanda,0.0,Seasonal_Naive_12,tourists
+2026-11-01,Saint Barthelemy,0.0,Seasonal_Naive_12,tourists
+2026-12-01,Saint Barthelemy,0.0,Seasonal_Naive_12,tourists
+2027-01-01,Saint Barthelemy,0.0,Seasonal_Naive_12,tourists
+2027-02-01,Saint Barthelemy,0.0,Seasonal_Naive_12,tourists
+2027-03-01,Saint Barthelemy,0.0,Seasonal_Naive_12,tourists
+2027-04-01,Saint Barthelemy,0.0,Seasonal_Naive_12,tourists
+2026-11-01,Saint Kitts And Nevis,22.0,Seasonal_Naive_12,tourists
+2026-12-01,Saint Kitts And Nevis,20.0,Seasonal_Naive_12,tourists
+2027-01-01,Saint Kitts And Nevis,28.0,Seasonal_Naive_12,tourists
+2027-02-01,Saint Kitts And Nevis,12.0,Seasonal_Naive_12,tourists
+2027-03-01,Saint Kitts And Nevis,17.0,Seasonal_Naive_12,tourists
+2027-04-01,Saint Kitts And Nevis,10.0,Seasonal_Naive_12,tourists
+2026-11-01,Saint Lucia,1.0,Seasonal_Naive_12,tourists
+2026-12-01,Saint Lucia,2.0,Seasonal_Naive_12,tourists
+2027-01-01,Saint Lucia,2.0,Seasonal_Naive_12,tourists
+2027-02-01,Saint Lucia,2.0,Seasonal_Naive_12,tourists
+2027-03-01,Saint Lucia,6.0,Seasonal_Naive_12,tourists
+2027-04-01,Saint Lucia,6.0,Seasonal_Naive_12,tourists
+2026-11-01,Saint Vincent And The Grenadines,0.0,Seasonal_Naive_12,tourists
+2026-12-01,Saint Vincent And The Grenadines,0.0,Seasonal_Naive_12,tourists
+2027-01-01,Saint Vincent And The Grenadines,0.0,Seasonal_Naive_12,tourists
+2027-02-01,Saint Vincent And The Grenadines,2.0,Seasonal_Naive_12,tourists
+2027-03-01,Saint Vincent And The Grenadines,0.0,Seasonal_Naive_12,tourists
+2027-04-01,Saint Vincent And The Grenadines,0.0,Seasonal_Naive_12,tourists
+2026-11-01,Samoa,1.0,Seasonal_Naive_12,tourists
+2026-12-01,Samoa,1.0,Seasonal_Naive_12,tourists
+2027-01-01,Samoa,0.0,Seasonal_Naive_12,tourists
+2027-02-01,Samoa,0.0,Seasonal_Naive_12,tourists
+2027-03-01,Samoa,0.0,Seasonal_Naive_12,tourists
+2027-04-01,Samoa,0.0,Seasonal_Naive_12,tourists
+2026-11-01,San Marino,4.0,Seasonal_Naive_12,tourists
+2026-12-01,San Marino,9.0,Seasonal_Naive_12,tourists
+2027-01-01,San Marino,2.0,Seasonal_Naive_12,tourists
+2027-02-01,San Marino,8.0,Seasonal_Naive_12,tourists
+2027-03-01,San Marino,0.0,Seasonal_Naive_12,tourists
+2027-04-01,San Marino,1.0,Seasonal_Naive_12,tourists
+2026-11-01,Sao Tome And Principe,0.0,Seasonal_Naive_12,tourists
+2026-12-01,Sao Tome And Principe,0.0,Seasonal_Naive_12,tourists
+2027-01-01,Sao Tome And Principe,0.0,Seasonal_Naive_12,tourists
+2027-02-01,Sao Tome And Principe,1.0,Seasonal_Naive_12,tourists
+2027-03-01,Sao Tome And Principe,0.0,Seasonal_Naive_12,tourists
+2027-04-01,Sao Tome And Principe,0.0,Seasonal_Naive_12,tourists
+2026-11-01,Saudi Arabia,825.0,Seasonal_Naive_12,tourists
+2026-12-01,Saudi Arabia,335.0,Seasonal_Naive_12,tourists
+2027-01-01,Saudi Arabia,536.0,Seasonal_Naive_12,tourists
+2027-02-01,Saudi Arabia,185.0,Seasonal_Naive_12,tourists
+2027-03-01,Saudi Arabia,109.0,Seasonal_Naive_12,tourists
+2027-04-01,Saudi Arabia,97.0,Seasonal_Naive_12,tourists
+2026-11-01,Senegal,2.0,Seasonal_Naive_12,tourists
+2026-12-01,Senegal,1.0,Seasonal_Naive_12,tourists
+2027-01-01,Senegal,4.0,Seasonal_Naive_12,tourists
+2027-02-01,Senegal,8.0,Seasonal_Naive_12,tourists
+2027-03-01,Senegal,4.0,Seasonal_Naive_12,tourists
+2027-04-01,Senegal,7.0,Seasonal_Naive_12,tourists
+2026-11-01,Serbia,256.0,Seasonal_Naive_12,tourists
+2026-12-01,Serbia,263.0,Seasonal_Naive_12,tourists
+2027-01-01,Serbia,409.0,Seasonal_Naive_12,tourists
+2027-02-01,Serbia,370.0,Seasonal_Naive_12,tourists
+2027-03-01,Serbia,61.0,Seasonal_Naive_12,tourists
+2027-04-01,Serbia,39.0,Seasonal_Naive_12,tourists
+2026-11-01,Seychelles,241.0,Seasonal_Naive_12,tourists
+2026-12-01,Seychelles,578.0,Seasonal_Naive_12,tourists
+2027-01-01,Seychelles,388.0,Seasonal_Naive_12,tourists
+2027-02-01,Seychelles,273.0,Seasonal_Naive_12,tourists
+2027-03-01,Seychelles,191.0,Seasonal_Naive_12,tourists
+2027-04-01,Seychelles,401.0,Seasonal_Naive_12,tourists
+2026-11-01,Sierra Leone,1.0,Seasonal_Naive_12,tourists
+2026-12-01,Sierra Leone,1.0,Seasonal_Naive_12,tourists
+2027-01-01,Sierra Leone,1.0,Seasonal_Naive_12,tourists
+2027-02-01,Sierra Leone,1.0,Seasonal_Naive_12,tourists
+2027-03-01,Sierra Leone,2.0,Seasonal_Naive_12,tourists
+2027-04-01,Sierra Leone,2.0,Seasonal_Naive_12,tourists
+2026-11-01,Singapore,1277.0,Seasonal_Naive_12,tourists
+2026-12-01,Singapore,1981.0,Seasonal_Naive_12,tourists
+2027-01-01,Singapore,1138.0,Seasonal_Naive_12,tourists
+2027-02-01,Singapore,1370.0,Seasonal_Naive_12,tourists
+2027-03-01,Singapore,1399.0,Seasonal_Naive_12,tourists
+2027-04-01,Singapore,876.0,Seasonal_Naive_12,tourists
+2026-11-01,Slovakia,830.0,Seasonal_Naive_12,tourists
+2026-12-01,Slovakia,976.0,Seasonal_Naive_12,tourists
+2027-01-01,Slovakia,1138.0,Seasonal_Naive_12,tourists
+2027-02-01,Slovakia,1452.0,Seasonal_Naive_12,tourists
+2027-03-01,Slovakia,323.0,Seasonal_Naive_12,tourists
+2027-04-01,Slovakia,254.0,Seasonal_Naive_12,tourists
+2026-11-01,Slovenia,249.0,Seasonal_Naive_12,tourists
+2026-12-01,Slovenia,464.0,Seasonal_Naive_12,tourists
+2027-01-01,Slovenia,413.0,Seasonal_Naive_12,tourists
+2027-02-01,Slovenia,700.0,Seasonal_Naive_12,tourists
+2027-03-01,Slovenia,116.0,Seasonal_Naive_12,tourists
+2027-04-01,Slovenia,166.0,Seasonal_Naive_12,tourists
+2026-11-01,Solomon Islands,3.0,Seasonal_Naive_12,tourists
+2026-12-01,Solomon Islands,1.0,Seasonal_Naive_12,tourists
+2027-01-01,Solomon Islands,1.0,Seasonal_Naive_12,tourists
+2027-02-01,Solomon Islands,0.0,Seasonal_Naive_12,tourists
+2027-03-01,Solomon Islands,0.0,Seasonal_Naive_12,tourists
+2027-04-01,Solomon Islands,1.0,Seasonal_Naive_12,tourists
+2026-11-01,Somalia,4.0,Seasonal_Naive_12,tourists
+2026-12-01,Somalia,13.0,Seasonal_Naive_12,tourists
+2027-01-01,Somalia,4.0,Seasonal_Naive_12,tourists
+2027-02-01,Somalia,3.0,Seasonal_Naive_12,tourists
+2027-03-01,Somalia,3.0,Seasonal_Naive_12,tourists
+2027-04-01,Somalia,4.0,Seasonal_Naive_12,tourists
+2026-11-01,South Africa,396.0,Seasonal_Naive_12,tourists
+2026-12-01,South Africa,1210.0,Seasonal_Naive_12,tourists
+2027-01-01,South Africa,378.0,Seasonal_Naive_12,tourists
+2027-02-01,South Africa,556.0,Seasonal_Naive_12,tourists
+2027-03-01,South Africa,341.0,Seasonal_Naive_12,tourists
+2027-04-01,South Africa,338.0,Seasonal_Naive_12,tourists
+2026-11-01,South Korea,1042.0,Seasonal_Naive_12,tourists
+2026-12-01,South Korea,1344.0,Seasonal_Naive_12,tourists
+2027-01-01,South Korea,1898.0,Seasonal_Naive_12,tourists
+2027-02-01,South Korea,1180.0,Seasonal_Naive_12,tourists
+2027-03-01,South Korea,1047.0,Seasonal_Naive_12,tourists
+2027-04-01,South Korea,471.0,Seasonal_Naive_12,tourists
+2026-11-01,South Sudan,0.0,Seasonal_Naive_12,tourists
+2026-12-01,South Sudan,1.0,Seasonal_Naive_12,tourists
+2027-01-01,South Sudan,0.0,Seasonal_Naive_12,tourists
+2027-02-01,South Sudan,0.0,Seasonal_Naive_12,tourists
+2027-03-01,South Sudan,0.0,Seasonal_Naive_12,tourists
+2027-04-01,South Sudan,0.0,Seasonal_Naive_12,tourists
+2026-11-01,Spain,4666.0,Seasonal_Naive_12,tourists
+2026-12-01,Spain,3244.0,Seasonal_Naive_12,tourists
+2027-01-01,Spain,3008.0,Seasonal_Naive_12,tourists
+2027-02-01,Spain,3174.0,Seasonal_Naive_12,tourists
+2027-03-01,Spain,1429.0,Seasonal_Naive_12,tourists
+2027-04-01,Spain,977.0,Seasonal_Naive_12,tourists
+2026-11-01,Sudan,172.0,Seasonal_Naive_12,tourists
+2026-12-01,Sudan,140.0,Seasonal_Naive_12,tourists
+2027-01-01,Sudan,96.0,Seasonal_Naive_12,tourists
+2027-02-01,Sudan,49.0,Seasonal_Naive_12,tourists
+2027-03-01,Sudan,30.0,Seasonal_Naive_12,tourists
+2027-04-01,Sudan,66.0,Seasonal_Naive_12,tourists
+2026-11-01,Suriname,0.0,Seasonal_Naive_12,tourists
+2026-12-01,Suriname,2.0,Seasonal_Naive_12,tourists
+2027-01-01,Suriname,0.0,Seasonal_Naive_12,tourists
+2027-02-01,Suriname,2.0,Seasonal_Naive_12,tourists
+2027-03-01,Suriname,2.0,Seasonal_Naive_12,tourists
+2027-04-01,Suriname,2.0,Seasonal_Naive_12,tourists
+2026-11-01,Swaziland,0.0,Seasonal_Naive_12,tourists
+2026-12-01,Swaziland,8.0,Seasonal_Naive_12,tourists
+2027-01-01,Swaziland,0.0,Seasonal_Naive_12,tourists
+2027-02-01,Swaziland,2.0,Seasonal_Naive_12,tourists
+2027-03-01,Swaziland,0.0,Seasonal_Naive_12,tourists
+2027-04-01,Swaziland,0.0,Seasonal_Naive_12,tourists
+2026-11-01,Sweden,1283.0,Seasonal_Naive_12,tourists
+2026-12-01,Sweden,4193.0,Seasonal_Naive_12,tourists
+2027-01-01,Sweden,2605.0,Seasonal_Naive_12,tourists
+2027-02-01,Sweden,2455.0,Seasonal_Naive_12,tourists
+2027-03-01,Sweden,896.0,Seasonal_Naive_12,tourists
+2027-04-01,Sweden,465.0,Seasonal_Naive_12,tourists
+2026-11-01,Switzerland,3232.0,Seasonal_Naive_12,tourists
+2026-12-01,Switzerland,3481.0,Seasonal_Naive_12,tourists
+2027-01-01,Switzerland,4146.0,Seasonal_Naive_12,tourists
+2027-02-01,Switzerland,4168.0,Seasonal_Naive_12,tourists
+2027-03-01,Switzerland,2186.0,Seasonal_Naive_12,tourists
+2027-04-01,Switzerland,2353.0,Seasonal_Naive_12,tourists
+2026-11-01,Syrian Arab Republic,2.0,Seasonal_Naive_12,tourists
+2026-12-01,Syrian Arab Republic,5.0,Seasonal_Naive_12,tourists
+2027-01-01,Syrian Arab Republic,1.0,Seasonal_Naive_12,tourists
+2027-02-01,Syrian Arab Republic,2.0,Seasonal_Naive_12,tourists
+2027-03-01,Syrian Arab Republic,2.0,Seasonal_Naive_12,tourists
+2027-04-01,Syrian Arab Republic,0.0,Seasonal_Naive_12,tourists
+2026-11-01,Taiwan,0.0,Seasonal_Naive_12,tourists
+2026-12-01,Taiwan,0.0,Seasonal_Naive_12,tourists
+2027-01-01,Taiwan,0.0,Seasonal_Naive_12,tourists
+2027-02-01,Taiwan,0.0,Seasonal_Naive_12,tourists
+2027-03-01,Taiwan,0.0,Seasonal_Naive_12,tourists
+2027-04-01,Taiwan,0.0,Seasonal_Naive_12,tourists
+2026-11-01,Tajikistan,19.0,Seasonal_Naive_12,tourists
+2026-12-01,Tajikistan,38.0,Seasonal_Naive_12,tourists
+2027-01-01,Tajikistan,24.0,Seasonal_Naive_12,tourists
+2027-02-01,Tajikistan,41.0,Seasonal_Naive_12,tourists
+2027-03-01,Tajikistan,24.0,Seasonal_Naive_12,tourists
+2027-04-01,Tajikistan,17.0,Seasonal_Naive_12,tourists
+2026-11-01,Tanzania,24.0,Seasonal_Naive_12,tourists
+2026-12-01,Tanzania,29.0,Seasonal_Naive_12,tourists
+2027-01-01,Tanzania,13.0,Seasonal_Naive_12,tourists
+2027-02-01,Tanzania,30.0,Seasonal_Naive_12,tourists
+2027-03-01,Tanzania,12.0,Seasonal_Naive_12,tourists
+2027-04-01,Tanzania,4.0,Seasonal_Naive_12,tourists
+2026-11-01,Thailand,831.0,Seasonal_Naive_12,tourists
+2026-12-01,Thailand,783.0,Seasonal_Naive_12,tourists
+2027-01-01,Thailand,802.0,Seasonal_Naive_12,tourists
+2027-02-01,Thailand,1149.0,Seasonal_Naive_12,tourists
+2027-03-01,Thailand,679.0,Seasonal_Naive_12,tourists
+2027-04-01,Thailand,597.0,Seasonal_Naive_12,tourists
+2026-11-01,Timor-Leste,6.0,Seasonal_Naive_12,tourists
+2026-12-01,Timor-Leste,5.0,Seasonal_Naive_12,tourists
+2027-01-01,Timor-Leste,0.0,Seasonal_Naive_12,tourists
+2027-02-01,Timor-Leste,0.0,Seasonal_Naive_12,tourists
+2027-03-01,Timor-Leste,2.0,Seasonal_Naive_12,tourists
+2027-04-01,Timor-Leste,0.0,Seasonal_Naive_12,tourists
+2026-11-01,Togo,3.0,Seasonal_Naive_12,tourists
+2026-12-01,Togo,0.0,Seasonal_Naive_12,tourists
+2027-01-01,Togo,3.0,Seasonal_Naive_12,tourists
+2027-02-01,Togo,0.0,Seasonal_Naive_12,tourists
+2027-03-01,Togo,2.0,Seasonal_Naive_12,tourists
+2027-04-01,Togo,0.0,Seasonal_Naive_12,tourists
+2026-11-01,Tonga,0.0,Seasonal_Naive_12,tourists
+2026-12-01,Tonga,0.0,Seasonal_Naive_12,tourists
+2027-01-01,Tonga,1.0,Seasonal_Naive_12,tourists
+2027-02-01,Tonga,0.0,Seasonal_Naive_12,tourists
+2027-03-01,Tonga,0.0,Seasonal_Naive_12,tourists
+2027-04-01,Tonga,0.0,Seasonal_Naive_12,tourists
+2026-11-01,Trinidad And Tobago,17.0,Seasonal_Naive_12,tourists
+2026-12-01,Trinidad And Tobago,12.0,Seasonal_Naive_12,tourists
+2027-01-01,Trinidad And Tobago,24.0,Seasonal_Naive_12,tourists
+2027-02-01,Trinidad And Tobago,11.0,Seasonal_Naive_12,tourists
+2027-03-01,Trinidad And Tobago,10.0,Seasonal_Naive_12,tourists
+2027-04-01,Trinidad And Tobago,5.0,Seasonal_Naive_12,tourists
+2026-11-01,Tunisia,72.0,Seasonal_Naive_12,tourists
+2026-12-01,Tunisia,105.0,Seasonal_Naive_12,tourists
+2027-01-01,Tunisia,47.0,Seasonal_Naive_12,tourists
+2027-02-01,Tunisia,40.0,Seasonal_Naive_12,tourists
+2027-03-01,Tunisia,37.0,Seasonal_Naive_12,tourists
+2027-04-01,Tunisia,65.0,Seasonal_Naive_12,tourists
+2026-11-01,Turkey,766.0,Seasonal_Naive_12,tourists
+2026-12-01,Turkey,678.0,Seasonal_Naive_12,tourists
+2027-01-01,Turkey,1420.0,Seasonal_Naive_12,tourists
+2027-02-01,Turkey,740.0,Seasonal_Naive_12,tourists
+2027-03-01,Turkey,581.0,Seasonal_Naive_12,tourists
+2027-04-01,Turkey,433.0,Seasonal_Naive_12,tourists
+2026-11-01,Turkmenistan,6.0,Seasonal_Naive_12,tourists
+2026-12-01,Turkmenistan,9.0,Seasonal_Naive_12,tourists
+2027-01-01,Turkmenistan,11.0,Seasonal_Naive_12,tourists
+2027-02-01,Turkmenistan,17.0,Seasonal_Naive_12,tourists
+2027-03-01,Turkmenistan,12.0,Seasonal_Naive_12,tourists
+2027-04-01,Turkmenistan,17.0,Seasonal_Naive_12,tourists
+2026-11-01,Tuvalu,0.0,Seasonal_Naive_12,tourists
+2026-12-01,Tuvalu,1.0,Seasonal_Naive_12,tourists
+2027-01-01,Tuvalu,0.0,Seasonal_Naive_12,tourists
+2027-02-01,Tuvalu,0.0,Seasonal_Naive_12,tourists
+2027-03-01,Tuvalu,0.0,Seasonal_Naive_12,tourists
+2027-04-01,Tuvalu,0.0,Seasonal_Naive_12,tourists
+2026-11-01,Uganda,20.0,Seasonal_Naive_12,tourists
+2026-12-01,Uganda,20.0,Seasonal_Naive_12,tourists
+2027-01-01,Uganda,19.0,Seasonal_Naive_12,tourists
+2027-02-01,Uganda,19.0,Seasonal_Naive_12,tourists
+2027-03-01,Uganda,8.0,Seasonal_Naive_12,tourists
+2027-04-01,Uganda,14.0,Seasonal_Naive_12,tourists
+2026-11-01,Ukraine,895.0,Seasonal_Naive_12,tourists
+2026-12-01,Ukraine,1243.0,Seasonal_Naive_12,tourists
+2027-01-01,Ukraine,2078.0,Seasonal_Naive_12,tourists
+2027-02-01,Ukraine,1635.0,Seasonal_Naive_12,tourists
+2027-03-01,Ukraine,383.0,Seasonal_Naive_12,tourists
+2027-04-01,Ukraine,212.0,Seasonal_Naive_12,tourists
+2026-11-01,United Arab Emirates,430.0,Seasonal_Naive_12,tourists
+2026-12-01,United Arab Emirates,399.0,Seasonal_Naive_12,tourists
+2027-01-01,United Arab Emirates,242.0,Seasonal_Naive_12,tourists
+2027-02-01,United Arab Emirates,126.0,Seasonal_Naive_12,tourists
+2027-03-01,United Arab Emirates,62.0,Seasonal_Naive_12,tourists
+2027-04-01,United Arab Emirates,170.0,Seasonal_Naive_12,tourists
+2026-11-01,United Kingdom,16915.0,Seasonal_Naive_12,tourists
+2026-12-01,United Kingdom,20535.0,Seasonal_Naive_12,tourists
+2027-01-01,United Kingdom,29540.0,Seasonal_Naive_12,tourists
+2027-02-01,United Kingdom,30788.0,Seasonal_Naive_12,tourists
+2027-03-01,United Kingdom,18092.0,Seasonal_Naive_12,tourists
+2027-04-01,United Kingdom,10425.0,Seasonal_Naive_12,tourists
+2026-11-01,United States,5284.0,Seasonal_Naive_12,tourists
+2026-12-01,United States,8524.0,Seasonal_Naive_12,tourists
+2027-01-01,United States,7373.0,Seasonal_Naive_12,tourists
+2027-02-01,United States,8228.0,Seasonal_Naive_12,tourists
+2027-03-01,United States,5362.0,Seasonal_Naive_12,tourists
+2027-04-01,United States,3873.0,Seasonal_Naive_12,tourists
+2026-11-01,Uruguay,8.0,Seasonal_Naive_12,tourists
+2026-12-01,Uruguay,10.0,Seasonal_Naive_12,tourists
+2027-01-01,Uruguay,8.0,Seasonal_Naive_12,tourists
+2027-02-01,Uruguay,15.0,Seasonal_Naive_12,tourists
+2027-03-01,Uruguay,8.0,Seasonal_Naive_12,tourists
+2027-04-01,Uruguay,20.0,Seasonal_Naive_12,tourists
+2026-11-01,Uzbekistan,59.0,Seasonal_Naive_12,tourists
+2026-12-01,Uzbekistan,188.0,Seasonal_Naive_12,tourists
+2027-01-01,Uzbekistan,601.0,Seasonal_Naive_12,tourists
+2027-02-01,Uzbekistan,212.0,Seasonal_Naive_12,tourists
+2027-03-01,Uzbekistan,50.0,Seasonal_Naive_12,tourists
+2027-04-01,Uzbekistan,25.0,Seasonal_Naive_12,tourists
+2026-11-01,Vanuatu,6.0,Seasonal_Naive_12,tourists
+2026-12-01,Vanuatu,11.0,Seasonal_Naive_12,tourists
+2027-01-01,Vanuatu,13.0,Seasonal_Naive_12,tourists
+2027-02-01,Vanuatu,16.0,Seasonal_Naive_12,tourists
+2027-03-01,Vanuatu,22.0,Seasonal_Naive_12,tourists
+2027-04-01,Vanuatu,5.0,Seasonal_Naive_12,tourists
+2026-11-01,Vatican City,0.0,Seasonal_Naive_12,tourists
+2026-12-01,Vatican City,0.0,Seasonal_Naive_12,tourists
+2027-01-01,Vatican City,0.0,Seasonal_Naive_12,tourists
+2027-02-01,Vatican City,0.0,Seasonal_Naive_12,tourists
+2027-03-01,Vatican City,0.0,Seasonal_Naive_12,tourists
+2027-04-01,Vatican City,0.0,Seasonal_Naive_12,tourists
+2026-11-01,Venezuela,10.0,Seasonal_Naive_12,tourists
+2026-12-01,Venezuela,9.0,Seasonal_Naive_12,tourists
+2027-01-01,Venezuela,19.0,Seasonal_Naive_12,tourists
+2027-02-01,Venezuela,13.0,Seasonal_Naive_12,tourists
+2027-03-01,Venezuela,9.0,Seasonal_Naive_12,tourists
+2027-04-01,Venezuela,14.0,Seasonal_Naive_12,tourists
+2026-11-01,Vietnam,292.0,Seasonal_Naive_12,tourists
+2026-12-01,Vietnam,267.0,Seasonal_Naive_12,tourists
+2027-01-01,Vietnam,354.0,Seasonal_Naive_12,tourists
+2027-02-01,Vietnam,1627.0,Seasonal_Naive_12,tourists
+2027-03-01,Vietnam,970.0,Seasonal_Naive_12,tourists
+2027-04-01,Vietnam,661.0,Seasonal_Naive_12,tourists
+2026-11-01,Yemen,40.0,Seasonal_Naive_12,tourists
+2026-12-01,Yemen,26.0,Seasonal_Naive_12,tourists
+2027-01-01,Yemen,45.0,Seasonal_Naive_12,tourists
+2027-02-01,Yemen,15.0,Seasonal_Naive_12,tourists
+2027-03-01,Yemen,10.0,Seasonal_Naive_12,tourists
+2027-04-01,Yemen,10.0,Seasonal_Naive_12,tourists
+2026-11-01,Zambia,6.0,Seasonal_Naive_12,tourists
+2026-12-01,Zambia,16.0,Seasonal_Naive_12,tourists
+2027-01-01,Zambia,6.0,Seasonal_Naive_12,tourists
+2027-02-01,Zambia,15.0,Seasonal_Naive_12,tourists
+2027-03-01,Zambia,3.0,Seasonal_Naive_12,tourists
+2027-04-01,Zambia,4.0,Seasonal_Naive_12,tourists
+2026-11-01,Zimbabwe,12.0,Seasonal_Naive_12,tourists
+2026-12-01,Zimbabwe,15.0,Seasonal_Naive_12,tourists
+2027-01-01,Zimbabwe,37.0,Seasonal_Naive_12,tourists
+2027-02-01,Zimbabwe,57.0,Seasonal_Naive_12,tourists
+2027-03-01,Zimbabwe,11.0,Seasonal_Naive_12,tourists
+2027-04-01,Zimbabwe,7.0,Seasonal_Naive_12,tourists
