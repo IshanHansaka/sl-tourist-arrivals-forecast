@@ -100,13 +100,11 @@ except Exception:
     }
 
 with st.sidebar:
-    st.markdown("### Sri Lanka Tourism")
-    st.caption("Ensemble Arrivals Forecast")
     page = st.radio(
         "Navigation",
         [
             "Overview",
-            "Tourism Data Exploration",
+            "Data Exploration",
             "Ensemble Model Comparison",
             "Model Performance Analysis",
             "Arrivals Forecast",
