@@ -111,9 +111,15 @@ st.markdown(
 
     .stTabs [data-baseweb="tab-list"] {{
         border-bottom: 1px solid {T['border']};
-        gap: 8px;
+        gap: 2rem;
+        margin-bottom: 1.5rem;
     }}
-    .stTabs [data-baseweb="tab"] {{color: {T['muted']};}}
+    .stTabs [data-baseweb="tab"] {{
+        color: {T['muted']};
+        padding: 0.75rem 0.5rem;
+        height: auto;
+    }}
+    .stTabs [data-baseweb="tab-panel"] {{padding-top: 0.5rem;}}
     .stTabs [aria-selected="true"] {{color: {T['teal']};}}
     .stTabs [data-baseweb="tab-highlight"] {{background-color: {T['teal']};}}
 
@@ -131,6 +137,17 @@ st.markdown(
         border-radius: 12px;
         overflow: hidden;
     }}
+    [data-testid="stMetric"] {{
+        min-height: 120px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }}
+    [data-testid="stMetricValue"] > div {{
+        overflow: visible;
+        text-overflow: clip;
+        white-space: normal;
+    }}
     [data-testid="stPlotlyChart"] {{
         background: {T['surface']};
         border: 1px solid {T['border']};
@@ -141,6 +158,7 @@ st.markdown(
     """,
     unsafe_allow_html=True,
 )
+
 
 def show(fig: go.Figure) -> None:
     """Apply the active theme to a Plotly figure and render it."""
@@ -218,61 +236,66 @@ except Exception:
     }
 
 
-# ---------------------------------------------------------------------------
-# Pages
-# ---------------------------------------------------------------------------
 if page == "Overview":
     st.title("Sri Lanka Tourist Arrivals Forecasting")
     st.caption(
         "Supervised monthly forecasting by country of origin using ensemble learning"
     )
 
-    best_row = (
-        test_results.loc[test_results["Model"] == "Seasonal_Naive_12"].iloc[0]
-        if test_results is not None and "Seasonal_Naive_12" in test_results["Model"].values
-        else None
+    selected_model = metadata.get("selected_model", "Seasonal_Naive_12")
+    best_row = None
+    if test_results is not None and selected_model in test_results["Model"].values:
+        best_row = test_results.loc[test_results["Model"] == selected_model].iloc[0]
+
+    row1 = st.columns(3)
+    row1[0].metric("Records", f"{len(history):,}", help="country-month rows")
+    row1[1].metric("Countries", f"{history['Country'].nunique():,}", help="origin countries")
+    row1[2].metric(
+        "Models evaluated",
+        f"{len(model_results) if model_results is not None else 0}",
+        help="validation results",
     )
-    cols = st.columns(5)
-    kpis = [
-        ("Records", f"{len(history):,}", "country-month rows"),
-        ("Countries", f"{history['Country'].nunique():,}", "origin countries"),
-        ("Date range", f"{history['Date'].min():%Y-%m} – {history['Date'].max():%Y-%m}", "monthly panel"),
-        ("Models evaluated", f"{len(model_results) if model_results is not None else 0}", "validation results"),
-        ("Selected model", metadata.get("selected_model", "Seasonal_Naive_12"), "lowest validation MAE"),
-    ]
-    for col, (label, value, help_text) in zip(cols, kpis):
-        col.metric(label, value, help=help_text)
+
+    row2 = st.columns(2)
+    row2[0].metric(
+        "Date range",
+        f"{history['Date'].min():%Y %b} – {history['Date'].max():%Y %b}",
+        help="monthly panel",
+    )
+    row2[1].metric(
+        "Best model",
+        selected_model.replace("_", " "),
+        help="lowest validation MAE",
+    )
 
     if best_row is not None:
-        c1, c2, c3, c4 = st.columns(4)
-        c1.metric("Test MAE", f"{best_row['MAE']:,.2f}", "tourists / country-month")
-        c2.metric("Test RMSE", f"{best_row['RMSE']:,.2f}", "tourists / country-month")
-        c3.metric("Test R²", f"{best_row['R2']:.4f}")
-        c4.metric("Test WAPE", f"{best_row['WAPE']:.2%}")
+        row3 = st.columns(4)
+        row3[0].metric("Test MAE", f"{best_row['MAE']:,.2f}", help="tourists / country-month")
+        row3[1].metric("Test RMSE", f"{best_row['RMSE']:,.2f}", help="tourists / country-month")
+        row3[2].metric("Test R²", f"{best_row['R2']:.4f}", help="coefficient of determination")
+        row3[3].metric("Test WAPE", f"{best_row['WAPE']:.2%}", help="weighted absolute percentage error")
 
     st.divider()
-    left, right = st.columns([1.2, 1])
-    with left:
-        st.subheader("What ensemble learning adds")
-        st.write(
-            "Bagging averages many diverse tree fits, boosting focuses sequentially "
-            "on difficult observations, voting averages complementary models, and "
-            "stacking learns how to combine base-model predictions. In this dataset, "
-            "validation-selected Seasonal Naive 12 remains the strongest primary "
-            "country-month baseline."
-        )
-    with right:
-        monthly = history.groupby("Date", as_index=False)["Arrivals"].sum()
-        fig = px.line(
-            monthly,
-            x="Date",
-            y="Arrivals",
-            title="Monthly Total Arrivals",
-            labels={"Arrivals": "Arrivals (tourists)", "Date": "Month"},
-        )
-        fig.update_traces(line_color=TEAL)
-        fig.update_layout(height=320, margin=dict(l=20, r=20, t=50, b=20))
-        show(fig)
+    st.subheader("What ensemble learning adds")
+    st.write(
+        "Bagging averages many diverse tree fits, boosting focuses sequentially "
+        "on difficult observations, voting averages complementary models, and "
+        "stacking learns how to combine base-model predictions. In this dataset, "
+        "validation-selected Seasonal Naive 12 remains the strongest primary "
+        "country-month baseline."
+    )
+
+    monthly = history.groupby("Date", as_index=False)["Arrivals"].sum()
+    fig = px.line(
+        monthly,
+        x="Date",
+        y="Arrivals",
+        title="Monthly Total Arrivals",
+        labels={"Arrivals": "Arrivals (tourists)", "Date": "Month"},
+    )
+    fig.update_traces(line_color=TEAL)
+    fig.update_layout(height=400, margin=dict(l=20, r=20, t=50, b=20))
+    show(fig)
 
 
 elif page == "Data Exploration":
