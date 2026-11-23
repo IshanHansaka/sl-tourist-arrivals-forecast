@@ -1,5 +1,0 @@
-Project Title: Sri Lanka Tourist Arrivals Forecasting Using Ensemble Learning
-
-GitHub Repository: https://github.com/IshanHansaka/sl-tourist-arrivals-forecast
-
-Streamlit Dashboard: https://sl-tourist-arrivals-forecast.streamlit.app/
