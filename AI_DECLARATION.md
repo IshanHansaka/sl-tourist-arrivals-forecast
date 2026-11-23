@@ -13,16 +13,3 @@ The underlying Copilot model name was not exposed by the development interface a
 | `app.py` | Six-page Streamlit dashboard structure | Human must test navigation and visual output |
 | EDA and model notebooks | Notebook structure and chart/model cells | Human must inspect outputs and add academic interpretation |
 | `README.md` | Initial project and submission documentation | Human must insert repository/GitHub details and verify claims |
-
-## Academic integrity statement
-
-AI-assisted code is not presented as independently handwritten by the student. The student must be able to explain:
-
-- why a chronological split is required;
-- how lag and rolling features prevent target-month leakage;
-- bagging, boosting, voting and stacking mechanics;
-- why the seasonal-naive baseline can beat ensembles;
-- MAE, RMSE, R², WAPE and MASE units;
-- the one-time test policy and forecast limitations.
-
-The lecturer's exact AI-disclosure wording and submission location must be confirmed against the official assignment sheet.
