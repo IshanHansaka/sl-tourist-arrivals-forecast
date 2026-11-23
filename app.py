@@ -9,35 +9,179 @@ import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
 
-
-NAVY = "#0B1F3A"
-TEAL = "#007C83"
-LIGHT = "#F1F5F9"
-BLUE = "#1D4E89"
-GRAY = "#64748B"
-
 st.set_page_config(
     page_title="Sri Lanka Tourist Arrivals Forecast",
-    page_icon="🇱🇰",
     layout="wide",
+)
+
+THEMES = {
+    "dark": {
+        "bg": "#0B1220",
+        "surface": "#111A2E",
+        "surface_alt": "#16213A",
+        "border": "#1F2B45",
+        "text": "#E6EDF7",
+        "muted": "#8A99B2",
+        "heading": "#F4F8FF",
+        "teal": "#2BB5BD",
+        "blue": "#5B9BE0",
+        "grid": "rgba(138,153,178,0.18)",
+        "plotly": "plotly_dark",
+        "palette": ["#2BB5BD", "#5B9BE0", "#8B7CF6", "#F2B85B", "#E8738F",
+                    "#6FCF97", "#56CCF2", "#BB86FC", "#F2994A", "#A3B1C6"],
+    },
+    "light": {
+        "bg": "#F1F5F9",
+        "surface": "#FFFFFF",
+        "surface_alt": "#F8FAFC",
+        "border": "#E2E8F0",
+        "text": "#1E293B",
+        "muted": "#64748B",
+        "heading": "#0B1F3A",
+        "teal": "#007C83",
+        "blue": "#1D4E89",
+        "grid": "rgba(100,116,139,0.20)",
+        "plotly": "plotly_white",
+        "palette": ["#007C83", "#1D4E89", "#6D5BD0", "#D9922E", "#C94F6D",
+                    "#3A9D6B", "#2A93B8", "#8E5CC4", "#D2711F", "#64748B"],
+    },
+}
+
+with st.sidebar:
+    light_mode = st.toggle("Light mode", value=False, key="light_mode")
+    st.divider()
+    page = st.radio(
+        "Navigation",
+        [
+            "Overview",
+            "Data Exploration",
+            "Ensemble Model Comparison",
+            "Model Performance Analysis",
+            "Arrivals Forecast",
+            "About the Project",
+        ],
+    )
+
+T = THEMES["light" if light_mode else "dark"]
+NAVY = T["heading"]
+TEAL = T["teal"]
+BLUE = T["blue"]
+GRAY = T["muted"]
+
+# Streamlit's dataframe grid is drawn on a canvas and follows the base theme
+# in .streamlit/config.toml (dark). In light mode it is colour-inverted.
+DATAFRAME_FILTER = (
+    "filter: invert(1) hue-rotate(180deg);" if light_mode else ""
 )
 
 st.markdown(
     f"""
     <style>
+    .stApp {{
+        background: {T['bg']};
+        color: {T['text']};
+    }}
+    [data-testid="stHeader"] {{background: transparent;}}
     .block-container {{padding-top: 1.5rem;}}
+
+    [data-testid="stSidebar"] {{
+        background: {T['surface']};
+        border-right: 1px solid {T['border']};
+    }}
+
+    h1, h2, h3, h4 {{color: {T['heading']}; letter-spacing: -0.01em;}}
+    .stApp p, .stApp li, .stApp label, .stApp span,
+    [data-testid="stMarkdownContainer"] {{color: {T['text']};}}
+    [data-testid="stCaptionContainer"], [data-testid="stCaptionContainer"] * {{
+        color: {T['muted']};
+    }}
+    hr {{border-color: {T['border']};}}
+
     [data-testid="stMetric"] {{
-        background: white;
-        border: 1px solid #E2E8F0;
+        background: {T['surface']};
+        border: 1px solid {T['border']};
         border-radius: 14px;
         padding: 16px;
     }}
-    h1, h2, h3 {{color: {NAVY};}}
+    [data-testid="stMetricLabel"], [data-testid="stMetricLabel"] * {{
+        color: {T['muted']};
+    }}
+    [data-testid="stMetricValue"], [data-testid="stMetricValue"] * {{
+        color: {T['heading']};
+    }}
+
+    [data-baseweb="select"] > div,
+    [data-baseweb="input"],
+    [data-baseweb="base-input"],
+    [data-testid="stDateInput"] input {{
+        background: {T['surface']};
+        border-color: {T['border']};
+        color: {T['text']};
+        border-radius: 10px;
+    }}
+    [data-baseweb="popover"] > div,
+    [data-baseweb="menu"],
+    [data-baseweb="calendar"] {{
+        background: {T['surface']};
+        color: {T['text']};
+    }}
+    [data-baseweb="menu"] li:hover {{background: {T['surface_alt']};}}
+
+    [data-testid="stAlert"] {{
+        background: {T['surface']};
+        border: 1px solid {T['border']};
+        border-left: 4px solid {T['teal']};
+        border-radius: 12px;
+    }}
+    [data-testid="stAlert"] * {{color: {T['text']};}}
+
+    .stTabs [data-baseweb="tab-list"] {{
+        border-bottom: 1px solid {T['border']};
+        gap: 8px;
+    }}
+    .stTabs [data-baseweb="tab"] {{color: {T['muted']};}}
+    .stTabs [aria-selected="true"] {{color: {T['teal']};}}
+    .stTabs [data-baseweb="tab-highlight"] {{background-color: {T['teal']};}}
+
+    .stDownloadButton button {{
+        background: {T['teal']};
+        color: #FFFFFF;
+        border: none;
+        border-radius: 10px;
+        padding: 0.5rem 1.1rem;
+    }}
+    .stDownloadButton button:hover {{filter: brightness(1.1); color: #FFFFFF;}}
+
+    [data-testid="stDataFrame"] {{
+        border: 1px solid {T['border']};
+        border-radius: 12px;
+        overflow: hidden;
+        {DATAFRAME_FILTER}
+    }}
+    [data-testid="stPlotlyChart"] {{
+        background: {T['surface']};
+        border: 1px solid {T['border']};
+        border-radius: 14px;
+        padding: 8px;
+    }}
     </style>
     """,
     unsafe_allow_html=True,
 )
 
+def show(fig: go.Figure) -> None:
+    """Apply the active theme to a Plotly figure and render it."""
+    fig.update_layout(
+        template=T["plotly"],
+        paper_bgcolor="rgba(0,0,0,0)",
+        plot_bgcolor="rgba(0,0,0,0)",
+        font=dict(color=T["text"]),
+        title_font=dict(color=T["heading"]),
+        legend=dict(font=dict(color=T["text"])),
+    )
+    fig.update_xaxes(gridcolor=T["grid"], zerolinecolor=T["grid"])
+    fig.update_yaxes(gridcolor=T["grid"], zerolinecolor=T["grid"])
+    st.plotly_chart(fig, use_container_width=True)
 
 @st.cache_data
 def load_csv(path: str) -> pd.DataFrame:
@@ -99,20 +243,6 @@ except Exception:
         "target_unit": "tourists per country-month",
     }
 
-with st.sidebar:
-    page = st.radio(
-        "Navigation",
-        [
-            "Overview",
-            "Data Exploration",
-            "Ensemble Model Comparison",
-            "Model Performance Analysis",
-            "Arrivals Forecast",
-            "About the Project",
-        ],
-    )
-
-
 if page == "Overview":
     st.title("Sri Lanka Tourist Arrivals Forecasting")
     st.caption(
@@ -164,10 +294,10 @@ if page == "Overview":
         )
         fig.update_traces(line_color=TEAL)
         fig.update_layout(height=320, margin=dict(l=20, r=20, t=50, b=20))
-        st.plotly_chart(fig, use_container_width=True)
+        show(fig)
 
 
-elif page == "Tourism Data Exploration":
+elif page == "Data Exploration":
     st.title("Tourism Data Exploration")
     tab1, tab2, tab3 = st.tabs(["Dataset", "Trends", "Seasonality"])
 
@@ -202,7 +332,7 @@ elif page == "Tourism Data Exploration":
             labels={"Arrivals": "Arrivals (tourists)", "Date": "Month"},
         )
         fig.update_traces(line_color=TEAL)
-        st.plotly_chart(fig, use_container_width=True)
+        show(fig)
 
         top = history.groupby("Country")["Arrivals"].sum().nlargest(10).index
         top_trends = history[history["Country"].isin(top)].groupby(
@@ -212,8 +342,9 @@ elif page == "Tourism Data Exploration":
             top_trends, x="Date", y="Arrivals", color="Country",
             title="Top 10 Country Trends",
             labels={"Arrivals": "Arrivals (tourists)", "Date": "Month"},
+            color_discrete_sequence=T["palette"],
         )
-        st.plotly_chart(fig, use_container_width=True)
+        show(fig)
 
     with tab3:
         heat = history.assign(
@@ -227,7 +358,7 @@ elif page == "Tourism Data Exploration":
             labels={"color": "Arrivals (tourists)"},
             title="Year × Month Seasonal Heatmap",
         )
-        st.plotly_chart(fig, use_container_width=True)
+        show(fig)
 
 
 elif page == "Ensemble Model Comparison":
@@ -246,9 +377,10 @@ elif page == "Ensemble Model Comparison":
             y=metric,
             color="Family",
             title=f"{metric} Comparison on Validation Data",
+            color_discrete_sequence=T["palette"],
         )
         fig.update_layout(xaxis_tickangle=-35)
-        st.plotly_chart(fig, use_container_width=True)
+        show(fig)
 
         if test_results is not None:
             st.subheader("One-time final test ranking")
@@ -266,10 +398,14 @@ elif page == "Model Performance Analysis":
     if test_predictions is None:
         st.warning("No test predictions are available.")
     else:
+        model_columns = [
+            c for c in test_predictions.columns
+            if c not in ["Date", "Country", "Arrivals", "Lag_12", "Lag_1"]
+        ]
         model_choice = st.selectbox(
             "Model",
-            [c for c in test_predictions.columns if c not in ["Date", "Country", "Arrivals", "Lag_12", "Lag_1"]],
-            index=([c for c in test_predictions.columns if c not in ["Date", "Country", "Arrivals", "Lag_12", "Lag_1"]].index("Seasonal_Naive_12")),
+            model_columns,
+            index=model_columns.index("Seasonal_Naive_12") if "Seasonal_Naive_12" in model_columns else 0,
         )
         frame = test_predictions.copy()
         frame["Prediction"] = frame[model_choice]
@@ -286,7 +422,7 @@ elif page == "Model Performance Analysis":
             yaxis_title="Arrivals (tourists)",
             height=450,
         )
-        st.plotly_chart(fig, use_container_width=True)
+        show(fig)
 
         scatter = frame.sample(min(3000, len(frame)), random_state=42)
         fig = px.scatter(
@@ -298,19 +434,29 @@ elif page == "Model Performance Analysis":
             labels={"Arrivals": "Actual arrivals (tourists)", "Prediction": "Predicted arrivals (tourists)"},
         )
         limit = max(scatter["Arrivals"].max(), scatter["Prediction"].max())
-        fig.add_trace(go.Scatter(x=[0, limit], y=[0, limit], mode="lines", name="Ideal", line=dict(dash="dash", color="gray")))
+        fig.add_trace(go.Scatter(x=[0, limit], y=[0, limit], mode="lines", name="Ideal", line=dict(dash="dash", color=GRAY)))
         fig.update_layout(showlegend=False, height=450)
-        st.plotly_chart(fig, use_container_width=True)
+        show(fig)
 
         residual = frame.assign(Residual=frame["Prediction"] - frame["Arrivals"])
         c1, c2 = st.columns(2)
         with c1:
-            fig = px.histogram(residual, x="Residual", nbins=60, title="Residual Distribution", labels={"Residual": "Residual arrivals (tourists)"})
-            st.plotly_chart(fig, use_container_width=True)
+            fig = px.histogram(
+                residual, x="Residual", nbins=60,
+                title="Residual Distribution",
+                labels={"Residual": "Residual arrivals (tourists)"},
+                color_discrete_sequence=[TEAL],
+            )
+            show(fig)
         with c2:
-            fig = px.scatter(residual, x="Prediction", y="Residual", title="Residuals vs Predicted", labels={"Prediction": "Predicted arrivals (tourists)", "Residual": "Residual arrivals (tourists)"})
-            fig.add_hline(y=0, line_dash="dash", line_color="gray")
-            st.plotly_chart(fig, use_container_width=True)
+            fig = px.scatter(
+                residual, x="Prediction", y="Residual",
+                title="Residuals vs Predicted",
+                labels={"Prediction": "Predicted arrivals (tourists)", "Residual": "Residual arrivals (tourists)"},
+                color_discrete_sequence=[BLUE],
+            )
+            fig.add_hline(y=0, line_dash="dash", line_color=GRAY)
+            show(fig)
 
 
 elif page == "Arrivals Forecast":
@@ -334,7 +480,6 @@ elif page == "Arrivals Forecast":
             selected_history = history.groupby("Date", as_index=False)["Arrivals"].sum()
         else:
             forecast_data = horizon_future[horizon_future["Country"] == country_choice].copy()
-            forecast_data = forecast_data.rename(columns={"Forecast": "Forecast"})
             forecast_data = forecast_data[["Date", "Forecast"]]
             label = country_choice
             selected_history = history[history["Country"] == country_choice].groupby(
@@ -350,7 +495,7 @@ elif page == "Arrivals Forecast":
         ))
         fig.add_trace(go.Scatter(
             x=pd.to_datetime(forecast_data["Date"]),
-            y=forecast_data["Forecast"] if "Forecast" in forecast_data else forecast_data["Forecast"],
+            y=forecast_data["Forecast"],
             name="Forecast",
             line=dict(color=TEAL, dash="dash"),
         ))
@@ -360,7 +505,7 @@ elif page == "Arrivals Forecast":
             yaxis_title="Arrivals (tourists)",
             height=450,
         )
-        st.plotly_chart(fig, use_container_width=True)
+        show(fig)
 
         export = forecast_data.rename(columns={"Forecast": "Forecast (tourists)"})
         st.dataframe(export, use_container_width=True)
