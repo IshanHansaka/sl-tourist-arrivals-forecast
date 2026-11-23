@@ -9,16 +9,6 @@ An undergraduate machine-learning project that forecasts monthly tourist arrival
 - Date coverage: 2018-01-01 to 2026-10-01
 - Target: `Arrivals`, in tourists per country-month
 - MAE and RMSE: tourists per country-month
-- Kaggle API metadata reports an MIT licence for the dataset, but the primary SLTDA source remains the authority for published totals.
-
-Official source checks:
-
-- SLTDA 2019 May total matches the CSV exactly: 37,802.
-- SLTDA 2026 October total matches the CSV exactly: 168,625.
-- CSV 2019 annual total is 1,913,690 versus SLTDA 1,913,702, a 12-tourist difference.
-- CSV 2026 January and February differ from the SLTDA page totals by 2 and 1 tourists.
-
-No aggregate-label rows were found. Country names with possible overlap, including Korea/South Korea and Congo variants, were not merged without documented source identity evidence.
 
 ## Cleaning decisions
 
@@ -68,17 +58,17 @@ All lag and rolling features are shifted so the target month is never included.
 
 Validation result used for model selection:
 
-| Model | MAE | RMSE | R² | WAPE | MASE |
-|---|---:|---:|---:|---:|---:|
-| Seasonal Naive 12 | 241.76 | 1063.39 | 0.9411 | 0.2043 | 1.0000 |
+| Model               |    MAE |    RMSE |     R² |   WAPE |   MASE |
+| ------------------- | -----: | ------: | -----: | -----: | -----: |
+| Seasonal Naive 12   | 241.76 | 1063.39 | 0.9411 | 0.2043 | 1.0000 |
 | Extra Trees untuned | 265.70 | 1227.54 | 0.9215 | 0.2245 | 1.0990 |
 
 One-time test result:
 
-| Model | MAE | RMSE | R² | WAPE | MASE |
-|---|---:|---:|---:|---:|---:|
-| Extra Trees | 244.06 | 962.93 | 0.9582 | 0.2099 | 0.9440 |
-| Random Forest | 252.85 | 1056.79 | 0.9497 | 0.2174 | 0.9780 |
+| Model             |    MAE |    RMSE |     R² |   WAPE |   MASE |
+| ----------------- | -----: | ------: | -----: | -----: | -----: |
+| Extra Trees       | 244.06 |  962.93 | 0.9582 | 0.2099 | 0.9440 |
+| Random Forest     | 252.85 | 1056.79 | 0.9497 | 0.2174 | 0.9780 |
 | Seasonal Naive 12 | 258.55 | 1017.95 | 0.9533 | 0.2223 | 1.0000 |
 
 Extra Trees had lower test MAE, but the test set was not used to revise the predeclared validation-selected Seasonal Naive 12 model.
@@ -134,28 +124,3 @@ Open `http://localhost:8501`.
 ```bash
 python3 -m pytest -q tests
 ```
-
-## GitHub and Streamlit Cloud
-
-No GitHub publishing or Streamlit deployment is performed in this project without approval.
-
-Before deployment:
-
-1. Initialise Git and review `.gitignore`.
-2. Commit the source, processed history, notebooks, requirements and required artifact files.
-3. Push to a public or private GitHub repository.
-4. In Streamlit Community Cloud, create an app from `app.py`, select the repository and Python branch.
-5. Confirm `requirements.txt` installs successfully and test every page.
-6. Record the deployed URL in this README.
-
-GitHub repository URL: **to be added after user approval**
-
-Streamlit URL: **to be added after user approval**
-
-## Limitations
-
-- Missing country-month rows were filled with zero based on a documented assumption.
-- Conflicting duplicate values were median-resolved rather than source-reconciled.
-- Tree models cannot extrapolate beyond training target ranges.
-- Seasonal-naive forecasts depend on historical seasonality and cannot anticipate shocks.
-- The 2026 figures should be confirmed as final or revised at the SLTDA source before publication.
