@@ -174,6 +174,17 @@ def show(fig: go.Figure) -> None:
     fig.update_yaxes(gridcolor=T["grid"], zerolinecolor=T["grid"])
     st.plotly_chart(fig, use_container_width=True)
 
+def table_view(df: pd.DataFrame) -> pd.DataFrame:
+    """Hide the Family, training-time and monthly-aggregate columns from displayed tables."""
+    hidden = [
+        c for c in df.columns
+        if c.strip().lower() == "family"
+        or "time" in c.strip().lower()
+        or "aggregate" in c.strip().lower()
+        or c.strip().lower().startswith("monthly")
+    ]
+    return df.drop(columns=hidden)
+
 
 @st.cache_data
 def load_csv(path: str) -> pd.DataFrame:
@@ -368,7 +379,7 @@ elif page == "Ensemble Model Comparison":
         st.warning("No validation model results are available.")
     else:
         ranked = model_results.sort_values("MAE")
-        st.dataframe(ranked, use_container_width=True)
+        st.dataframe(table_view(ranked), use_container_width=True)
 
         metric = st.selectbox("Chart metric", ["MAE", "RMSE", "R2", "WAPE"])
         chart = ranked.sort_values(metric, ascending=(metric != "R2"))
@@ -385,7 +396,7 @@ elif page == "Ensemble Model Comparison":
 
         if test_results is not None:
             st.subheader("One-time final test ranking")
-            st.dataframe(test_results.sort_values("MAE"), use_container_width=True)
+            st.dataframe(table_view(test_results.sort_values("MAE")), use_container_width=True)
 
     st.info(
         "Primary selection used lowest validation MAE and left the Nov 2025–Oct 2026 "
