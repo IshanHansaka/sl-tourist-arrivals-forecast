@@ -14,42 +14,23 @@ st.set_page_config(
     layout="wide",
 )
 
-THEMES = {
-    "dark": {
-        "bg": "#0B1220",
-        "surface": "#111A2E",
-        "surface_alt": "#16213A",
-        "border": "#1F2B45",
-        "text": "#E6EDF7",
-        "muted": "#8A99B2",
-        "heading": "#F4F8FF",
-        "teal": "#2BB5BD",
-        "blue": "#5B9BE0",
-        "grid": "rgba(138,153,178,0.18)",
-        "plotly": "plotly_dark",
-        "palette": ["#2BB5BD", "#5B9BE0", "#8B7CF6", "#F2B85B", "#E8738F",
-                    "#6FCF97", "#56CCF2", "#BB86FC", "#F2994A", "#A3B1C6"],
-    },
-    "light": {
-        "bg": "#F1F5F9",
-        "surface": "#FFFFFF",
-        "surface_alt": "#F8FAFC",
-        "border": "#E2E8F0",
-        "text": "#1E293B",
-        "muted": "#64748B",
-        "heading": "#0B1F3A",
-        "teal": "#007C83",
-        "blue": "#1D4E89",
-        "grid": "rgba(100,116,139,0.20)",
-        "plotly": "plotly_white",
-        "palette": ["#007C83", "#1D4E89", "#6D5BD0", "#D9922E", "#C94F6D",
-                    "#3A9D6B", "#2A93B8", "#8E5CC4", "#D2711F", "#64748B"],
-    },
+T = {
+    "bg": "#0B1220",
+    "surface": "#111A2E",
+    "surface_alt": "#16213A",
+    "border": "#1F2B45",
+    "text": "#E6EDF7",
+    "muted": "#8A99B2",
+    "heading": "#F4F8FF",
+    "teal": "#2BB5BD",
+    "blue": "#5B9BE0",
+    "grid": "rgba(138,153,178,0.18)",
+    "plotly": "plotly_dark",
+    "palette": ["#2BB5BD", "#5B9BE0", "#8B7CF6", "#F2B85B", "#E8738F",
+                "#6FCF97", "#56CCF2", "#BB86FC", "#F2994A", "#A3B1C6"],
 }
 
 with st.sidebar:
-    light_mode = st.toggle("Light mode", value=False, key="light_mode")
-    st.divider()
     page = st.radio(
         "Navigation",
         [
@@ -62,17 +43,10 @@ with st.sidebar:
         ],
     )
 
-T = THEMES["light" if light_mode else "dark"]
 NAVY = T["heading"]
 TEAL = T["teal"]
 BLUE = T["blue"]
 GRAY = T["muted"]
-
-# Streamlit's dataframe grid is drawn on a canvas and follows the base theme
-# in .streamlit/config.toml (dark). In light mode it is colour-inverted.
-DATAFRAME_FILTER = (
-    "filter: invert(1) hue-rotate(180deg);" if light_mode else ""
-)
 
 st.markdown(
     f"""
@@ -156,7 +130,6 @@ st.markdown(
         border: 1px solid {T['border']};
         border-radius: 12px;
         overflow: hidden;
-        {DATAFRAME_FILTER}
     }}
     [data-testid="stPlotlyChart"] {{
         background: {T['surface']};
@@ -182,6 +155,7 @@ def show(fig: go.Figure) -> None:
     fig.update_xaxes(gridcolor=T["grid"], zerolinecolor=T["grid"])
     fig.update_yaxes(gridcolor=T["grid"], zerolinecolor=T["grid"])
     st.plotly_chart(fig, use_container_width=True)
+
 
 @st.cache_data
 def load_csv(path: str) -> pd.DataFrame:
@@ -243,6 +217,10 @@ except Exception:
         "target_unit": "tourists per country-month",
     }
 
+
+# ---------------------------------------------------------------------------
+# Pages
+# ---------------------------------------------------------------------------
 if page == "Overview":
     st.title("Sri Lanka Tourist Arrivals Forecasting")
     st.caption(
@@ -550,12 +528,6 @@ else:
     )
     st.subheader("Sources")
     st.markdown(
-        "- [Sri Lanka Tourism Development Authority](https://www.sltda.gov.lk/en/monthly-tourist-arrivals-reports-2026)\n"
-        "- [Kaggle: Sri Lanka tourist arrivals](https://www.kaggle.com/datasets/amandapriyashantha/sri-lanka-tourists-arrival)\n"
-        "- Kaggle API metadata reports MIT licence; primary-source totals should be re-verified before publication."
-    )
-    st.subheader("Academic integrity")
-    st.write(
-        "This project discloses AI-assisted implementation in AI_DECLARATION.md. "
-        "The student must verify algorithms and results before submission."
+        "- [Sri Lanka Tourism Development Authority](https://www.sltda.gov.lk/en/tourist-arrivals-from-all-countries)\n"
+        "- [Kaggle: Sri Lanka tourism dataset 2018-2026 May](https://www.kaggle.com/datasets/visurarodrigo/sri-lanka-tourism-dataset-2018-2026-may?select=sl_tourism_country_wise_final.csv)\n"
     )
