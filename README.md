@@ -1,5 +1,7 @@
 # Sri Lanka Tourist Arrivals Forecasting Using Ensemble Learning
 
+**Live Dashboard:** [https://sl-tourist-arrivals-forecast.streamlit.app/](https://sl-tourist-arrivals-forecast.streamlit.app/)
+
 An undergraduate machine-learning project that forecasts monthly tourist arrivals to Sri Lanka by country of origin. The project compares baselines, bagging, boosting, voting and stacking, and presents the real results in a six-page Streamlit dashboard.
 
 ## Data
