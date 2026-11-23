@@ -126,3 +126,11 @@ Open `http://localhost:8501`.
 ```bash
 python3 -m pytest -q tests
 ```
+
+## Kaggle Dataset
+
+The dataset used in this project is published on Kaggle.
+
+**Dataset:** [Sri Lanka Tourist Arrivals Dataset (2018–2026)](https://www.kaggle.com/datasets/ishanhansakasilva/sri-lanka-tourist-arrivals-dataset-2018-2026)
+
+The dataset contains monthly tourist arrival records to Sri Lanka by country of origin, covering January 2018 to October 2026.
